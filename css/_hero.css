@@ -82,6 +82,11 @@
     border-radius: 12.41px;
 }
 
+.button.hero__button1:hover {
+    background-color: #5848A3;
+    border-color: #5848A3;
+}
+
 .button.hero__button2 {
     font-weight: 500;
     font-size: 16.27px;
@@ -91,6 +96,10 @@
     border: 2px solid #6C5FBC;
     display: inline-block;
     border-radius: 12.41px;
+}
+
+.button.hero__button2:hover {
+    background-color: #F3F0FF;
 }
 
 .hero__ratings {
