@@ -1,0 +1,121 @@
+.hero {
+    margin: 154px 5%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1285px;
+    margin: 154px auto; 
+    gap: 30px;
+    align-items: center;
+}
+
+.hero__text-block {
+    flex: 1;
+    min-width: 550px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__subtitle {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 120%;
+    letter-spacing: 2px;
+    color: #201f1f56;
+
+}
+
+.hero__subtitle::before {
+    content: "";
+    width: 54px;
+    height: 2px;
+    background-color: #201f1f56;
+    margin-right: 10px;
+
+}
+
+.hero__title {
+    margin-top: 18px;
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 120%;
+    letter-spacing: -3px;
+}
+
+.hero__title--highlight {
+    color: #5C4EAE;
+}
+
+.hero__description {
+    width: 88%;
+    margin-top: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+    color: #676767;
+}
+
+.hero__description--highlight {
+    color: #6C5FBC;
+}
+
+.hero__buttons {
+    margin-top: 53px;
+    display: flex;
+    gap: 20px;
+}
+
+.button.hero__button1 {
+    font-weight: 500;
+    font-size: 16.27px;
+    text-decoration: none;
+    color: white;
+    padding: 15px 25px;
+    background-color: #6C5FBC;
+    border: 2px solid #6C5FBC;
+    display: inline-block;
+    border-radius: 12.41px;
+}
+
+.button.hero__button2 {
+    font-weight: 500;
+    font-size: 16.27px;
+    text-decoration: none;
+    color: #6C5FBC;
+    padding: 15px 25px;
+    border: 2px solid #6C5FBC;
+    display: inline-block;
+    border-radius: 12.41px;
+}
+
+.hero__ratings {
+    margin-top: 33px;
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+
+}
+
+.hero__ratings > img {
+    transform: translateY(-2px);
+}
+
+.rating__stars{
+    display: inline-block;
+    transform: translateY(1px);
+}
+
+.rating__text {
+    color: #64748b;
+    
+}
+
+.hero__image-block img {
+    max-width: 100%;
+    height: auto;
+}
