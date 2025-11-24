@@ -1,16 +1,26 @@
-:root{
+:root {
     font-family: Poppins, sans-serif;
 }
-body{
+
+body {
     margin: 0px;
     padding: 0px;
 }
+
 .container {
     max-width: 1285px;
     margin: 0 auto;
-    padding: 0 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
+}
+
+.section-divider {
+    border: none;
+    height: 1px;
+    background-color: #CBCBCB;
+    max-width: 1285px;
+    margin: 0 auto;
+    margin-top: 110px;
 }

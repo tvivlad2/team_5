@@ -19,7 +19,6 @@
     line-height: 120%;
     letter-spacing: 2px;
     color: #201f1f56;
-
 }
 
 .hero__subtitle::before {
@@ -28,7 +27,6 @@
     height: 2px;
     background-color: #201f1f56;
     margin-right: 10px;
-
 }
 
 .hero__title {
@@ -48,7 +46,6 @@
     margin-top: 16px;
     font-family: Inter;
     font-weight: 400;
-    font-style: Regular;
     font-size: 18px;
     line-height: 28px;
     text-align: justify;
