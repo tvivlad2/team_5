@@ -1,12 +1,14 @@
 header
 {
-	width: 1100px;
+	display: flex;
+	width: 1248px;
 	height: 62.400001525878906px;
 	opacity: 1;
 	top: 48px;
 	left: 96px;
-	padding: 20px 80px 0px 80px;
-	/*border-bottom: 1px solid #CBCBCB;*/
+	padding-top: 50px;
+	justify-content: center;
+	align-items: center;
 }
 
 header a
@@ -16,51 +18,61 @@ header a
 
 .logo
 {
+	display: flex;
+	width: 111.94140625;
+	height: 42.31485366821289;
+	opacity: 1;
+	top: 9px;
+	align-items: center;
+
 	font-family: Poppins;
 	font-weight: 600;
 	font-style: SemiBold;
 	font-size: 21.18px;
 	line-height: 130%;
 	letter-spacing: 0px;
-	vertical-align: middle;
 	color: #6C5FBC;
-	float: left;
 }
 
 .nav
 {
+	display: flex;
+	width: 374.4571228027344;
+	height: 27;
+	opacity: 1;
+	top: 17px;
+	left: 215.06px;
+	gap: 53.49px;
+	justify-content: space-between;
+	padding-right: 400px;
+	padding-left: 100px;
+	
 	font-family: Inter;
 	font-weight: 500;
 	font-size: 17.83px;
 	line-height: 26.74px;
-	padding: 0px 230px 0px 40px;
 	letter-spacing: 0%;
 	text-transform: capitalize;
 	color: #606060;
-	float: left;
-}
-
-.nav a
-{
-	padding: 0px 26.74px 0px 0px;
 }
 
 .buttons
 {
+	display: flex;
 	width: 232.88571166992188;
 	height: 62.65713882446289;
 	opacity: 1;
 	top: -1px;
 	left: 1015.12px;
 	gap: 8.91px;
-
+	justify-content: right;
+	
 	font-family: Inter;
 	font-weight: 700;
 	font-size: 17.83px;
 	line-height: 26.74px;
 	letter-spacing: 0%;
 	text-transform: capitalize;
-	float: left;
 }
 
 .button1
