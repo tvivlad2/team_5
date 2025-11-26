@@ -3,8 +3,6 @@ header
 	/*display: flex;*/
 	height: 62.400001525878906px;
 	opacity: 1;
-	top: 48px;
-	left: 96px;
 	/*justify-content: flex-start;
 	align-items: center;*/
 }
@@ -32,7 +30,6 @@ header a
 	justify-content: flex-start;
 	align-items: center;
 	gap: 15px;
-	
 
 	font-family: Poppins;
 	font-weight: 600;
@@ -68,11 +65,8 @@ header a
 	left: 215.06px;
 	gap: 53.49px;
 	justify-content: space-between;
-	/*padding-right: 770px;
-	padding-left:80px;*/
 	margin-left: 15%;
 	margin-right: 60%;
-	
 	
 	font-family: Inter;
 	font-weight: 500;
@@ -91,6 +85,11 @@ header a
 .nav a:visited
 {
 	color: #606060;
+}
+
+.nav a:hover
+{
+	color: #000000;
 }
 
 .buttons
@@ -138,4 +137,16 @@ header a
 	padding-left: 26.74px;
 	background: #6C5FBC;
 	color: #F9F9F9;
+}
+
+.button1:hover
+{
+	background: #F0F0F0;
+	color: #000000
+}
+
+.button2:hover
+{
+	background: #472491;
+	color: #F0F0F0;
 }
