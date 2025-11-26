@@ -1,6 +1,6 @@
 .app {
-    padding-top: 154px;
-    padding-bottom: 154px;
+    padding-top: 90px;
+    padding-bottom: 65px;
 }
 
 .app__text-block {
@@ -74,4 +74,11 @@
     top: 85px;
     left: 90%;
     white-space: nowrap;
+}
+
+.app .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
 }

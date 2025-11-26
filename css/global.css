@@ -9,18 +9,19 @@ body {
 
 .container {
     max-width: 1285px;
+    width: 100%;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
 }
 
 .section-divider {
     border: none;
     height: 1px;
     background-color: #CBCBCB;
-    max-width: 1285px;
+    max-width: 1237px;
+    width: calc(100% - 48px); 
     margin: 0 auto;
-    margin-top: 110px;
+    margin-top: 25px;
 }
