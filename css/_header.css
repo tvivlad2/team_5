@@ -19,8 +19,8 @@ header a
 .logo
 {
 	display: flex;
-	width: 111.94140625;
-	height: 42.31485366821289;
+	width: 111.94140625px;
+	height: 42.31485366821289px;
 	opacity: 1;
 	top: 9px;
 	align-items: center;
@@ -47,14 +47,14 @@ header a
 .nav
 {
 	display: flex;
-	width: 374.4571228027344;
-	height: 27;
+	width: 374.4571228027344px;
+	height: 27px;
 	opacity: 1;
 	top: 17px;
 	left: 215.06px;
 	gap: 53.49px;
 	justify-content: space-between;
-	padding-right: 400px;
+	padding-right: 800px;
 	padding-left: 100px;
 	
 	font-family: Inter;
@@ -79,8 +79,8 @@ header a
 .buttons
 {
 	display: flex;
-	width: 232.88571166992188;
-	height: 62.65713882446289;
+	width: 232.88571166992188px;
+	height: 62.65713882446289px;
 	opacity: 1;
 	top: -1px;
 	left: 1015.12px;
@@ -97,8 +97,8 @@ header a
 
 .button1
 {
-	width: 102.48571014404297;
-	height: 62.65713882446289;
+	width: 102.48571014404297px;
+	height: 62.65713882446289px;
 	opacity: 1;
 	border-radius: 17.83px;
 	gap: 11.14px;
@@ -111,8 +111,8 @@ header a
 
 .button2
 {
-	width: 121.48571014404297;
-	height: 62.65713882446289;
+	width: 121.48571014404297px;
+	height: 62.65713882446289px;
 	opacity: 1;
 	border-radius: 17.83px;
 	gap: 11.14px;
