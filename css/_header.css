@@ -1,19 +1,25 @@
 header
 {
-	display: flex;
-	/*width: 1285px;*/
+	/*display: flex;*/
 	height: 62.400001525878906px;
 	opacity: 1;
 	top: 48px;
 	left: 96px;
-	padding-top: 60px;
-	justify-content: center;
-	align-items: center;
+	/*justify-content: flex-start;
+	align-items: center;*/
 }
 
 header a
 {
 	text-decoration: none;
+}
+
+.hdr_flex
+{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 4%;
 }
 
 .logo
@@ -23,7 +29,10 @@ header a
 	height: 42.31485366821289px;
 	opacity: 1;
 	top: 9px;
+	justify-content: flex-start;
 	align-items: center;
+	gap: 15px;
+	
 
 	font-family: Poppins;
 	font-weight: 600;
@@ -44,6 +53,11 @@ header a
 	color: #6C5FBC;
 }
 
+.logo_img
+{
+	justify-content: flex-start;
+}
+
 .nav
 {
 	display: flex;
@@ -54,8 +68,11 @@ header a
 	left: 215.06px;
 	gap: 53.49px;
 	justify-content: space-between;
-	padding-right: 750px;
-	padding-left: 90px;
+	/*padding-right: 770px;
+	padding-left:80px;*/
+	margin-left: 15%;
+	margin-right: 60%;
+	
 	
 	font-family: Inter;
 	font-weight: 500;
@@ -122,8 +139,3 @@ header a
 	background: #6C5FBC;
 	color: #F9F9F9;
 }
-
-
-
-
-
