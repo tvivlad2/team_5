@@ -1,26 +1,22 @@
-﻿.footer a{
+﻿footer a{
     text-decoration:none;
 }
 
-footer ~ .section-divider,
-footer + .section-divider,
-.section-divider:last-of-type {
-    display: none;
+footer .logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 130%;
+    color: #6C5FBC;
 }
 
-.footer {
+footer {
     padding: 100px 0 81px 0;
     box-sizing: border-box;
     background:#EAEAEA;
-}
-
-.footercontent {
-    margin: 0 40px 0 50px;
-    max-width: 1285px;
-    width: 100%;
-    margin: 0 auto;
-    padding-left: 24px;
-    padding-right: 24px;
 }
 
 .upperpart {
@@ -35,11 +31,11 @@ footer + .section-divider,
     gap: 70px;
 }
 
-    .links a {
-        font-family: Inter;
-        color: #999999;
-        font-size: 17.83px;
-    }
+.links a {
+    font-family: Inter;
+    color: #999999;
+    font-size: 17.83px;
+}
 
 .lowerpart {
     display: flex;
@@ -60,12 +56,16 @@ footer + .section-divider,
     gap: 20px;
 }
 
-    .networks a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        transition: background-color 0.3s;
-    }
+.networks a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.footer__button:hover {
+    color: #464646;
+}

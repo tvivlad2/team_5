@@ -1,0 +1,145 @@
+.restaurants {
+    margin-top: 100px;
+    margin-bottom: 231px;
+}
+
+.restaurants__title {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 25.56px;
+    color: #323142;
+    display: flex;
+    justify-content: center;
+    gap: 0.25em;
+}
+
+.restaurants__title--highlight {
+    color: #6C5FBC;
+}
+
+.restaurants__cards {
+    margin-top: 86px;
+    display: flex;
+    gap: 30px;
+}
+
+.restaurants__card {
+    text-decoration: none;
+    flex: 1;
+    height: 297px;
+    border-radius: 30px;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5.95px 55.35px 25.67px 0px #E5E5E5B2;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.card__image {
+    height: 176px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px 30px 0 0;
+}
+
+.card__image img {
+    width: 396px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    filter: brightness(95%);
+}
+
+.card__content {
+    margin-top: 11px;
+    padding: 0 8.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1; 
+    position: relative;
+}
+
+.card__tag {
+    padding: 6px 8px;
+    text-align: center;
+    border-radius: 5.4px;
+    font-size: 13px;
+    line-height: 1;
+}
+
+.tag--healthy {
+    background-color: #F7EDD0;
+    color: #DAA31A;
+}
+
+.tag--trending {
+    background-color: #F7C5BA;
+    color: #FB471D;
+}
+
+.card__title {
+    color: #323142;
+    font-weight: 600;
+    font-size: 25.79px;
+    line-height: 41.9px;
+    letter-spacing: 0px;
+    padding-right: 28px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.card__info {
+    font-weight: 400;
+    font-size: 19.34px;
+    line-height: 25.79px;
+    letter-spacing: 0px;
+    color:#8E97A6;
+    display: flex;
+    align-items: flex-end;
+    gap: 11px;
+    
+}
+
+.card__bookmark {
+    position: absolute;
+    right: 22px;
+    top: 53px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+}
+
+.card__bookmark:active {
+    transform: scale(0.9);
+}
+
+.card__bookmark:hover{
+    filter: brightness(90%);
+}
+
+.restaurants__viewall {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color:#ACADB9;
+    display: flex;
+    align-items: center;
+    justify-self: flex-end;
+    margin-top: 66px;
+    gap: 20px;
+}
+
+.restaurants__viewall:hover {
+    color:#707179;
+}
+
+.restaurants__card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+}

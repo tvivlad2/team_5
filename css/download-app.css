@@ -52,6 +52,10 @@
     margin-top: 30px;
 }
 
+.button.app__button:hover {
+    filter: brightness(90%);
+}
+
 .app__image-block img {
     margin-left: 15%;
 }
