@@ -1,0 +1,133 @@
+.reviews {
+    margin-top: 116px;
+    margin-bottom: 217px;
+}
+
+.reviews__title {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 1.2;
+    color: #323142;
+    gap: 12px;
+    margin-bottom: 80px;
+    
+}
+
+.reviews__title--highlight {
+    color: #6C5FBC;
+}
+
+.reviews__content {
+    display: flex;
+    gap: 46px;
+    align-items: flex-start;
+}
+
+.reviews__main-review {
+    width: 528px;
+    height: 346px;
+    flex-shrink: 0;
+    background-color: white;
+    border-radius: 21px;
+    box-shadow: 50px 76.07px 100.1px 0px #4646463d;
+    padding: 38px 43px;
+}
+
+.main-review__header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.review__quote {
+    margin-left: auto;
+}
+
+.review__pic {
+    border-radius: 50%;
+}
+
+.review__name {
+    font-weight: 500;
+    font-size: 20.89px;
+    line-height: 31.34px;
+}
+
+.review__status {
+    font-weight: 300;
+    font-size: 16.71px;
+    line-height: 26.12px;
+    color: #5E5D5D;
+}
+
+.main-review__text {
+    font-size: 18px;
+    line-height: 26.12px;
+    text-align: justify;
+    font-style: italic;
+    color: #636363;
+    margin-top: 32px;
+}
+
+.main-review__stars {
+    margin-top: 38px;
+}
+
+.reviews__right-col {
+    display: flex;
+    flex-direction: column;
+    height: 338px;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.reviews__track {
+    display: flex;
+    gap: 46px;
+    margin-right: -100vw;
+    padding-right: 50px;
+}
+
+.reviews__side-review {
+    width: 528px;
+    height: 239px;
+    flex-shrink: 0;
+    background-color: white;
+    border-radius: 21px;
+    box-shadow: 50px 76.07px 100.1px 0px #4646463d;
+    padding: 38px 43px;
+    box-sizing: border-box;
+}
+
+.side-review__text {
+    font-size: 18px;
+    line-height: 26.12px;
+    text-align: justify;
+    font-style: italic;
+    color: #969696;
+}
+
+.side-review__stars {
+    margin-top: 32px;
+}
+
+.reviews__scrollbar {
+    width: 100%;
+    max-width: 667px;
+    height: 11px;
+    background-color: #6b5fbc3a;
+    border-radius: 50px;
+    position: relative;
+}
+
+.scrollbar__thumb {
+    width: 29%;
+    height: 100%;
+    background-color: #6C5FBC;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
