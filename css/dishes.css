@@ -1,0 +1,103 @@
+.dishes {
+	margin-top: 100px;
+    margin-bottom: 120px;
+}
+
+.dishes__title {
+	font-family: Poppins, sans-serif;
+	font-weight: 600;
+	font-style: SemiBold;
+	font-size: 45px;
+	line-height: 25.56px;
+	display: flex;
+	justify-content: center;
+	gap: 0.25em;
+}
+
+.dishes__title--highligth {
+	color: #6C5FBC;
+}
+
+.dishes__cards {
+	margin-top: 86px;
+    display: flex;
+    gap: 30px;
+}
+
+.dishes__card {
+	text-decoration: none;
+    flex-grow: 1;
+    height: 390px;
+    border-radius: 34px;
+	border: 1.44px solid #F4F4F6;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5.95px 55.35px 25.67px 0px #E5E5E5B2;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+	position: relative;
+}
+
+.dishes__card__image {
+	height: 208px;
+    position: relative;
+    overflow: hidden;
+	margin-top: 24px;
+}
+
+.dishes__card__image img {
+	width: 201px;
+    position: absolute;
+}
+
+.dishes__card__heart {
+	position: absolute;
+    right: 15px;
+    top: 24px;
+	display: flex;
+}
+
+.dishes__card__content {
+	padding: 0 8.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1; 
+    position: relative;
+}
+
+.card__tag--supreme {
+    background-color: #33AC64;
+    color: #309D5B;
+}
+
+.card__price__cart {
+	display: flex;
+    align-items: flex-end;
+}
+
+.card__price {
+	font-family: Manrope, sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 40px;
+	color: #121826;
+}
+
+.card__price::after {
+	font-size: 19px;
+	color: #8E97A6;
+	content: ".99";
+}
+
+.card__cart {
+	position: absolute;
+    right: 22px;
+    top: 95px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+}
