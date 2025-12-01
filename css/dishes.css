@@ -40,15 +40,39 @@
 	position: relative;
 }
 
-.dishes__card__image {
+.dishes__card__image1 {
 	height: 208px;
     position: relative;
     overflow: hidden;
 	margin-top: 24px;
 }
 
-.dishes__card__image img {
+.dishes__card__image1 img {
 	width: 201px;
+    position: absolute;
+}
+
+.dishes__card__image2 {
+	height: 185px;
+    position: relative;
+    overflow: hidden;
+	margin-top: 24px;
+}
+
+.dishes__card__image2 img {
+	width: 185px;
+    position: absolute;
+}
+
+.dishes__card__image3 {
+	height: 186.1px;
+    position: relative;
+    overflow: hidden;
+	margin-top: 24px;
+}
+
+.dishes__card__image3 img {
+	width: 184.7px;
     position: absolute;
 }
 
