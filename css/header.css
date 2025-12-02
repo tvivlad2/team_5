@@ -40,6 +40,10 @@ header a {
     color: #6C5FBC;
 }
 
+.nav a.current-page{
+    color: #6C5FBC;
+}
+
 .nav {
     display: flex;
     gap: 53px;

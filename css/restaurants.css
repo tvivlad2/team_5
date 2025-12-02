@@ -143,3 +143,21 @@
     transform: scale(1.05);
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
 }
+
+.restaurants.restaurants--menu-page {
+    margin-top: 145px; 
+}
+.restaurants--menu-page .restaurants__title {
+    justify-content: space-between;
+    align-items: center;
+    font-size: 35px;
+}
+
+.title__content {
+    display: flex;
+    gap: 0.25em;
+}
+
+.restaurants--menu-page .restaurants__viewall {
+    margin-top: 0px;
+}
