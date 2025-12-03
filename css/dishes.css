@@ -27,6 +27,8 @@
 .dishes__card {
 	text-decoration: none;
     flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 0;
     height: 390px;
     border-radius: 34px;
 	border: 1.44px solid #F4F4F6;
@@ -40,42 +42,18 @@
 	position: relative;
 }
 
-.dishes__card__image1 {
-	height: 208px;
+.dishes__card__image {
+	/*height: 185px;*/
+	aspect-ratio: 1/1;
     position: relative;
     overflow: hidden;
-	margin-top: 24px;
+	margin-top: 30px;
 }
 
-.dishes__card__image1 img {
-	width: 201px;
+.dishes__card__image img {
+	width: 80%;
     position: absolute;
-}
-
-.dishes__card__image2 {
-	height: 185px;
-    position: relative;
-    overflow: hidden;
-	margin-top: 24px;
-	margin-left: 10px;
-}
-
-.dishes__card__image2 img {
-	width: 185px;
-    position: absolute;
-}
-
-.dishes__card__image3 {
-	height: 186.1px;
-    position: relative;
-    overflow: hidden;
-	margin-top: 24px;
-	margin-left: 10px;
-}
-
-.dishes__card__image3 img {
-	width: 184.7px;
-    position: absolute;
+	left: 5%;
 }
 
 .dishes__card__heart {
@@ -101,6 +79,7 @@
     align-items: flex-start;
     flex-grow: 1; 
     position: relative;
+	background: transparent;
 }
 
 .dishes__card__tag {
@@ -124,6 +103,7 @@
     letter-spacing: 0px;
     width: 100%;
     box-sizing: border-box;
+	flex-grow: 1;
 }
 
 .dishes__card__info {
@@ -136,13 +116,14 @@
     display: flex;
     align-items: flex-end;
     gap: 6px;
-    
+    margin-top: auto;
 }
 
 .card__price__cart {
 	display: flex;
     align-items: flex-end;
-	margin-top: 10px;
+	margin-top: 12px;
+	margin-bottom: 30px;
 }
 
 .card__price {
