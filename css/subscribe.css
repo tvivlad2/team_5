@@ -1,0 +1,96 @@
+.subscribe {
+    max-width: 1214px;
+    height: 280px;
+    background: #5C4EAE;
+    display: flex;
+    position:relative;
+    margin: 0 auto;
+    margin-bottom: 216px;
+    border-radius: 30px;
+}
+
+.subscribe__get50{
+    position: absolute;
+    font-weight: 800;
+    font-size: 70px;
+    color: #ffffff;
+    padding: 37px 0 0 66px;
+    z-index: 2;
+}
+
+.subscribe__foodimage{
+    position: absolute;
+    bottom: -60px;
+    right: 72px;
+    z-index: 3;
+}
+
+.subscribe__enteremail{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    height: 68px;
+    width: 440px;
+    bottom: 61px;
+    left: 66px;
+    border-radius: 14.2px;
+    background-color: #FFFFFF;
+    box-shadow: 0 7.25px 45.33px rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    box-sizing: border-box;
+    gap: 62.25px;
+    z-index: 2;
+}
+
+.subscribe__enteremail input{
+    all: unset;
+    z-index: 2;
+    font-family: Poppins;
+    height: 24px;
+    width: 217px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #878787;
+    padding: 0;
+}
+
+.subscribe__enteremail a{
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14.75px;
+    color: #F7F8FA;
+    background-color: #6c5fbc;
+    border-radius: 11.25px;
+    height: 53.44px;
+    width: 132.37px;
+    right: 6.35px;
+}
+
+.subscribe__groupburgers {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.subscribe__leftgroupburgers{
+    position: absolute;
+    height: 490.1px;
+    width: 892.92px;
+    top: 0;
+}
+
+.subscribe__rightgroupburgers{
+    position: absolute;
+    height: 490.1px;
+    width: 892.92px;
+    top: 0;
+    left: 321px;
+}
