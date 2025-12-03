@@ -1,0 +1,163 @@
+.dishes {
+	margin-top: 100px;
+    margin-bottom: 120px;
+}
+
+.dishes__title {
+	font-family: Poppins, sans-serif;
+	font-weight: 600;
+	font-style: SemiBold;
+	font-size: 45px;
+	line-height: 25.56px;
+	display: flex;
+	justify-content: center;
+	gap: 0.25em;
+}
+
+.dishes__title--highligth {
+	color: #6C5FBC;
+}
+
+.dishes__cards {
+	margin-top: 86px;
+    display: flex;
+    gap: 30px;
+}
+
+.dishes__card {
+	text-decoration: none;
+    flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 0;
+    height: 390px;
+    border-radius: 34px;
+	border: 1.44px solid #F4F4F6;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5.95px 55.35px 25.67px 0px #E5E5E5B2;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+	position: relative;
+}
+
+.dishes__card__image {
+	/*height: 185px;*/
+	aspect-ratio: 1/1;
+    position: relative;
+    overflow: hidden;
+	margin-top: 30px;
+}
+
+.dishes__card__image img {
+	width: 80%;
+    position: absolute;
+	left: 8%;
+}
+
+.dishes__card__heart {
+	position: absolute;
+    right: 15px;
+    top: 24px;
+	background: transparent;
+	display: flex;
+}
+
+.dishes__card__heart:active {
+    transform: scale(0.9);
+}
+
+.dishes__card__heart:hover{
+    filter: brightness(180%);
+}
+
+.dishes__card__content {
+	padding: 0 8.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1; 
+    position: relative;
+	background: transparent;
+}
+
+.dishes__card__tag {
+    padding: 5px 7px;
+    text-align: center;
+    border-radius: 4.8px;
+    font-size: 11.4px;
+    line-height: 1;
+}
+
+.tag--supreme {
+    background-color: #CEF0D7;
+    color: #309D5B;
+}
+
+.dishes__card__title {
+    color: #323142;
+    font-weight: 600;
+    font-size: 23.05px;
+    line-height: 37.46px;
+    letter-spacing: 0px;
+    width: 100%;
+    box-sizing: border-box;
+	flex-grow: 1;
+}
+
+.dishes__card__info {
+    font-weight: 400;
+	font-family: Manrope, sans-serif;
+    font-size: 17.29px;
+    line-height: 23.05px;
+    letter-spacing: 0px;
+    color:#8E97A6;
+    display: flex;
+    align-items: flex-end;
+    gap: 6px;
+    margin-top: auto;
+}
+
+.card__price__cart {
+	display: flex;
+    align-items: flex-end;
+	margin-top: 12px;
+	margin-bottom: 30px;
+}
+
+.card__price {
+	font-family: Manrope, sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 40px;
+	color: #121826;
+}
+
+.card__price::after {
+	font-size: 19px;
+	color: #8E97A6;
+	content: ".99";
+}
+
+.card__cart {
+	position: absolute;
+    right: 22px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+}
+
+.card__cart:active {
+    transform: scale(0.9);
+}
+
+.card__cart:hover{
+    filter: brightness(150%);
+}
+
+.dishes__card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+}
