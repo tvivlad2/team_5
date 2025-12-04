@@ -17,10 +17,10 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/menu/hero.css" />
-    <link rel="stylesheet" href="css/restaurants.css" />
     <link rel="stylesheet" href="css/dishes.css" />
     <link rel="stylesheet" href="css/faq.css" />
+    <link rel="stylesheet" href="css/restaurants.css" />
+    <link rel="stylesheet" href="css/restaurant-hero.css" />
 </head>
 
 <body>
@@ -47,133 +47,35 @@
     <hr class="section-divider">
 
 
-    <section class="hero">
+    <section class="restaurant-hero">
         <div class="container">
-            <div class="hero__block">
-                <div class="hero__block--left">
-                    <div class="hero__banner">
-                        <img src="img/menu/banner.svg">
-                        <img class="banner__slider" src="img/menu/slider-lines.svg">
-                    </div>
-                    <div class="hero__searchbar">
-                        <img class="search__icon" src="img/menu/search.svg">
-                        <input class="search__input" type="text" placeholder="Search">
-                    </div>
-                    <div class="hero__buttons">
-                        <button class="hero__button-food">Food</button>
-                        <button class="hero__button-resturent">Resturent</button>
-                    </div>
+            <a href="#" class="restaurants__card">
+                <div class="card__image">
+                    <img src="img/rest-1.jpg">
                 </div>
-                <div class="hero__block--right">
-                    <div class="hero__filter">
-                        <div class="filter__title">
-                            Category
-                        </div>
-                        <div class="filter__buttons">
-                            <img class="filter__button" src=img/menu/pizza.svg>
-                            <img class="filter__button filter__button--highlight" src=img/menu/asian.svg>
-                            <img class="filter__button" src=img/menu/donut.svg>
-                            <img class="filter__button" src=img/menu/ice.svg>
-                        </div>
-                        <div class="filter__title">
-                            Sort By
-                        </div>
-                        <div class="filter__sortby">
-                            <div class="filter__sorts">
-                                <span class="filter__sort1">Recomended</span>
-                                <span class="filter__sort2">Fast Delivery</span>
-                            </div>
-                            <div class="filter__sorts">
-                                <span class="filter__sort1">Most Popular</span>
-                            </div>
-                        </div>
-                        <div class="filter__title">
-                            Price
-                        </div>
-                        <img src="img/menu/slider-price.svg">
-                        <button class="filter__apply">Apply</button>
+                <div class="card__content">
+                    <div class="card__title">The Chicken King</div>
+                    <div class="card__info">
+                        24min •
+                        <img width="35px" src="img/card-star.svg">
+                        4.8
                     </div>
+                    <button class="card__bookmark" type="button">
+                        <img src="img/Bookmark.svg">
+                    </button>
                 </div>
-            </div>
+            </a>
         </div>
     </section>
 
-    <section class="restaurants restaurants--menu-page">
-        <div class="container">
-            <div class="restaurants__title">
-                <div class="title__content">
-                    Our Top<span class="restaurants__title--highlight">Restaurants</span>
-                </div>
-                <a href="#" class="restaurants__viewall">View All <img src="img/view_all_arrow.svg"></a>
-            </div>
-            <div class="restaurants__cards">
-                <a href="restaurant.html" class="restaurants__card">
-                    <div class="card__image">
-                        <img src="img/rest-1.jpg">
-                    </div>
-                    <div class="card__content">
-                        <div class="card__tag tag--healthy">Healthy</div>
-                        <div class="card__title">The Chicken King</div>
-                        <div class="card__info">
-                            24min •
-                            <img src="img/card-star.svg">
-                            4.8
-                        </div>
-                        <button class="card__bookmark" type="button">
-                            <img src="img/Bookmark.svg">
-                        </button>
-                    </div>
-                </a>
-
-                <a href="#" class="restaurants__card">
-                    <div href="#" class="card__image">
-                        <img src="img/rest-2.jpg">
-                    </div>
-                    <div class="card__content">
-                        <div class="card__tag tag--trending">Healthy</div>
-                        <div class="card__title">The Burger King</div>
-                        <div class="card__info">
-                            24min •
-                            <img src="img/card-star.svg">
-                            4.9
-                        </div>
-                        <button class="card__bookmark" type="button">
-                            <img src="img/Bookmark.svg">
-                        </button>
-                    </div>
-                </a>
-
-                <a href="restaurant.html" class="restaurants__card">
-                    <div class="card__image">
-                        <img src="img/rest-1.jpg">
-                    </div>
-                    <div class="card__content">
-                        <div class="card__tag tag--healthy">Healthy</div>
-                        <div class="card__title">The Chicken King</div>
-                        <div class="card__info">
-                            24min •
-                            <img src="img/card-star.svg">
-                            4.8
-                        </div>
-                        <button class="card__bookmark" type="button">
-                            <img src="img/Bookmark.svg">
-                        </button>
-                    </div>
-                </a>
-            </div>
-
-        </div>
-    </section>
-    <hr class="section-divider">
 
 
     <section class="dishes dishes--menu-page">
         <div class="container">
             <div class="dishes__title">
                 <div class="dishes__title-content">
-                    Our Top <span class="dishes__title--highligth">Dishes</span>
+                    Popular 🔥
                 </div>
-                <a href="#" class="restaurants__viewall">View All <img src="img/view_all_arrow.svg"></a>
             </div>
             <div class="dishes__cards">
                 <!--Card 1-->
@@ -313,9 +215,75 @@
             </div>
         </div>
     </section>
-    <hr class="section-divider">
 
-    <section class="faq">
+    <section class="dishes dishes--menu-page">
+        <div class="container">
+            <div class="dishes__title">
+                <div class="dishes__title-content">
+                    Chicken Vegetables
+                </div>
+            </div>
+            <div class="dishes__cards">
+                <!--Card 1-->
+                <a href="#" class="dishes__card">
+                    <div class="dishes__card__image">
+                        <img src="img/Food-Image3-Edited.png" alt="food_image">
+                    </div>
+                    <div class="dishes__card__heart" type="button">
+                        <img src="img/heart-icon.svg">
+                    </div>
+                    <div class="dishes__card__content">
+                        <div class="dishes__card__tag tag--healthy">Healthy</div>
+                        <div class="dishes__card__title">Chicken Hell</div>
+                        <div class="dishes__card__info">
+                            24min •
+                            <img src="img/card-star.svg">
+                            4.8
+                        </div>
+                        <div class="card__price__cart">
+                            <div class="card__price">
+                                $12
+                            </div>
+                            <div class="card__cart" type="button">
+                                <img src="img/add.svg">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!--Card 2-->
+                <a href="#" class="dishes__card">
+                    <div class="dishes__card__image">
+                        <img src="img/Food-Image2-Edited.png" alt="food_image">
+                    </div>
+                    <div class="dishes__card__heart" type="button">
+                        <img src="img/heart-icon.svg">
+                    </div>
+                    <div class="dishes__card__content">
+                        <div class="dishes__card__tag tag--trending">Trending</div>
+                        <div class="dishes__card__title">Swe Dish</div>
+                        <div class="dishes__card__info">
+                            34min •
+                            <img src="img/card-star.svg">
+                            4.9
+                        </div>
+                        <div class="card__price__cart">
+                            <div class="card__price">
+                                $19
+                            </div>
+                            <div class="card__cart" type="button">
+                                <img src="img/add.svg">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+    <section class="faq restaurant-page">
         <div class="container">
             <div class="faq__title_pobolshe">
                 <div class="faq__title">
@@ -327,11 +295,17 @@
                 </div>
             </div>
             <div class="faq__questions">
-                <div class="faq__question">
-                    <div class="question__content">How lond does delivery take?</div>
-                    <div class="question__button">
-                        <img src="img/Plus.svg">
+                <div class="faq__question having-answer">
+                    <div class="faq__questionwithbutton">
+                        <div class="question__content">How lond does delivery take?</div>
+                        <div class="question__button">
+                            <img src="img/minus.svg">
+                        </div>
                     </div>
+                    <div class="question__answer">
+                        You Can Get Information By Contacting Our Support Team Have 24/7 Service. <br>What's The Difference Between Free And Paid Plan ?
+                    </div>
+                    
                 </div>
                 <div class="faq__question">
                     <div class="question__content">How Does It Work ?</div>
