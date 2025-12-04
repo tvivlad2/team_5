@@ -1,0 +1,62 @@
+.faq {
+    margin-top: 196px;
+}
+
+.faq__title {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 120%;
+    letter-spacing: 0px;
+    text-align: center;
+    position: relative;
+    max-width: 408px;
+    margin-bottom: 90px;
+}
+
+.faq__title--highlight {
+    color: #6C5FBC;
+}
+
+.faq__title_palochki {
+    position: absolute;
+    top: -60px;
+    right: -60px;
+}
+
+.question__content {
+    font-weight: 600;
+    font-size: 23.42px;
+    line-height: 59.24px;
+    letter-spacing: 0%;
+    color: #323142;
+}
+
+.faq__question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px 8px;
+    border-bottom: 1px solid #ADADAD;
+    margin-bottom: 23px;
+}
+
+.faq__questions {
+    padding: 0px 50px;
+    margin-bottom: 150px;
+}
+
+.faq .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.faq__title_pobolshe {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.question__button:hover {
+    filter: brightness(0.85);
+}

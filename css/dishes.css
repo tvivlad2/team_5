@@ -6,7 +6,6 @@
 .dishes__title {
 	font-family: Poppins, sans-serif;
 	font-weight: 600;
-	font-style: SemiBold;
 	font-size: 45px;
 	line-height: 25.56px;
 	display: flex;
@@ -138,6 +137,7 @@
 	font-size: 19px;
 	color: #8E97A6;
 	content: ".99";
+    margin-left: -6px;
 }
 
 .card__cart {
@@ -160,4 +160,22 @@
 .dishes__card:hover {
     transform: scale(1.05);
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.dishes.dishes--menu-page {
+    margin-top: 145px; 
+}
+.dishes--menu-page .dishes__title {
+    justify-content: space-between;
+    align-items: center;
+    font-size: 35px;
+}
+
+.dishes__title-content {
+    display: flex;
+    gap: 0.25em;
+}
+
+.dishes--menu-page .restaurants__viewall {
+    margin-top: 0px;
 }
