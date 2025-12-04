@@ -1,0 +1,104 @@
+.contact_us{
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.contact_us__leftpart{
+    display: flex;
+    position: relative;
+    width: 531px;
+    height: 818px;
+    background-color: #6c5fbc;
+    margin: 210px 317px 212px 0;
+}
+
+.contact_us__rightpart{
+    display: flex;
+    position: relative;
+    width: 493px;
+    height: 818px;
+    margin: 204px 99px 218px 0;
+}
+
+.contact_us__firstgroup{
+    display: flex;
+    position: relative;
+    width: 531px;
+}
+
+.contact_us__firstgroup__1img{
+    margin-top: 57px;
+    margin-left: 82px;
+}
+
+.contact_us__firstgroup__2img{
+    margin-top: 119.38px;
+    margin-left: -20px;
+}
+
+.contact_us__leftpart__3img{
+    position: absolute;
+    right: -215.46px;
+    bottom: -76px;
+}
+
+.contact_us__justcontact{
+    position: absolute;
+    margin: 84.38px 105px 683.62px 112px;
+    width: 314px;
+    height: 50px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 48px;
+    color: #f9f9f9;
+}
+
+.contact_us__custsupp{
+    display: flex;
+    margin-top: 0;
+    margin-left: 3px;
+}
+
+.contact_us__customer{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 40px;
+    color: #252525;
+    margin-right: 8px;
+}
+
+.contact_us__support{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 40px;
+    color: #6c5fbc;
+}
+
+.contact_us__dataentry{
+    margin-top: 62px;
+}
+
+.contact_us__dataentry__input1 input{
+    width: 493px;
+    height: 79px;
+    border: 3px solid #6c5fbc;
+    border-radius: 16.89px;
+}
+
+.contact_us__dataentry__input2 input{
+    margin-top: 26px;
+    width: 493px;
+    height: 79px;
+    border: 3px solid #6c5fbc;
+    border-radius: 16.89px;
+}
+
+.contact_us__dataentry__input3 input{
+    margin-top: 52px;
+    width: 493px;
+    height: 345px;
+    border: 3px solid #6c5fbc;
+    border-radius: 16.89px;
+}
