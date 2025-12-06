@@ -1,0 +1,61 @@
+
+.plate_container {
+    height: 220.5px;
+    color: white;
+    position: relative;
+    text-align: center; 
+    white-space: nowrap; 
+    padding: 66px;
+}
+
+.plate-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+
+.plate_part {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    vertical-align: middle; 
+    margin: 0 66px;;
+}
+
+
+.plate_part + .plate_part::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -66px;
+    width: 1px;
+    height: 123px; 
+    background: #C5C5C5;
+    opacity: 0.15;
+    transform: translateX(-50%) translateY(-50%); 
+}
+
+
+.plate_number {
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 125%;
+    text-align: center;
+    color: #fff;
+}
+
+
+.plate_text {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #c5bfed;
+}
