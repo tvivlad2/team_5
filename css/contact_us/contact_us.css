@@ -1,0 +1,217 @@
+.contact_us{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contact_us__leftpart{
+    display: flex;
+    position: relative;
+    width: 100%;
+    min-width: 531px;
+    max-height: 818px;
+    background-color: #6c5fbc;
+    margin: 210px min(317px, 20%) 212px 0;
+}
+
+.contact_us__rightpart{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 818px;
+    margin: 204px 64px 218px 0;
+}
+
+.contact_us__firstgroup{
+    display: flex;
+    position: relative;
+    min-width: 100%;
+    justify-content: center;
+}
+
+.contact_us__firstgroup__1img{
+    position: absolute;
+    width: clamp(15px, 4%, 30px);
+    height: clamp(28.29px, 8%, 56.58px);
+    margin-top: 57px;
+    right: 389px;
+}
+
+.contact_us__firstgroup__2img{
+    position: absolute;
+    width: clamp(54px, 25%, 336px);
+    height: clamp(30.5px, 50%, 127.53px);
+    margin-top: 119.38px;
+    right: clamp(240px, 8%, 334px);
+}
+
+.contact_us__leftpart__3img{
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    right: -285.46px;
+    bottom: -76px;
+    padding-right: 102.2px;
+}
+
+.contact_us__justcontact{
+    position: absolute;
+    margin-top: 84.38px;
+    right: clamp(5px, 12%, 104px);
+    max-width: 531px;
+    height: 50px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: clamp(32px, 4vw, 48px);
+    color: #f9f9f9;
+}
+
+/*Right part*/
+
+.contact_us__custsupp{
+    display: flex;
+    margin-top: 0;
+    margin-left: 3px;
+}
+
+.contact_us__customer{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 40px;
+    color: #252525;
+    margin-right: 8px;
+}
+
+.contact_us__support{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 40px;
+    color: #6c5fbc;
+}
+
+.contact_us__dataentry{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    max-width: 493px;
+    margin-top: 62px;
+}
+
+.contact_us__dataentry__input1 input{
+    all:unset;
+    position: relative;
+    width: 100%;
+    height: 79px;
+    border: 3px solid #6c5fbc;
+    border-radius: 16.89px;
+    padding: 0 25.34px;
+    box-sizing: border-box;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16.89px;
+    color: #252525;
+}
+
+.contact_us__dataentry__input1 ::placeholder{
+    position: absolute;
+    width: 96px;
+    height: 26px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16.89px;
+    color: #b6b6b6;
+}
+
+.contact_us__dataentry__input2 input{
+    all:unset;
+    position: relative;
+    margin-top: 26px;
+    width: 100%;
+    height: 79px;
+    border: 3px solid #6c5fbc;
+    border-radius: 16.89px;
+    padding: 0 25.34px;
+    box-sizing: border-box;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16.89px;
+    color: #252525;
+    box-sizing: border-box;
+}
+
+.contact_us__dataentry__input2 ::placeholder{
+    position: absolute;
+    width: 164px;
+    height: 26px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16.89px;
+    color: #b6b6b6;
+}
+
+.contact_us__dataentry__input3 textarea {
+    all:unset;
+    margin-top: 52px;
+    width: 100%;
+    height: 345px;
+    border: 3px solid #6c5fbc;
+    border-radius: 16.89px;
+    padding: 22.65px 25.34px;
+    box-sizing: border-box;
+    font-family: Inter;
+    font-size: 16.89px;
+    color: #252525;
+}
+
+.contact_us__dataentry__input3 textarea::placeholder {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16.89px;
+    color: #b6b6b6;
+    opacity: 1;
+}
+
+.contact_us__dataentry__sendnow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 76px;
+    background-color:#6c5fbc;
+    border-radius: 15.88px;
+    margin-top: 43px;
+    position: relative;
+}
+
+.contact_us__dataentry__sendnow a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #f9f9f9;
+    width: 100%;
+    height: 100%;
+    font-size: 20.81px;
+    font-weight: 500;
+    font-family: Poppins;
+    border-radius: inherit;
+}
+
+.contact_us__dataentry__sendnow a:hover{
+    background-color: #5a4ea3;
+    color: #FFFFFF;
+}
+
+.contact_us__arrow{
+    position: absolute;
+    left: -101px;
+    bottom: -110px;
+}
+
+.contact_us__dataentry__input1 input:focus::placeholder,
+.contact_us__dataentry__input2 input:focus::placeholder,
+.contact_us__dataentry__input3 textarea:focus::placeholder {
+    opacity: 0;
+}
