@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>eatly</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Onest:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/menu-map.css" />
+    <link rel="stylesheet" href="css/subscribe.css" />
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="hdr_flex menu-map">
+                <a href="index.html" class="logo">
+                    <img src="img/logo.svg" alt="logo" width=45.94px height=42.31px>
+                    eatly
+                </a>
+                <div class="nav">
+                    <a class="current-page" href="menu.html">Menu</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="buttons">
+                    <a class="button1" href="#">Login</a>
+                    <a class="button2" href="#">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <hr class="section-divider">
+
+
+    <section class="map">
+        <div class="container">
+            <img width="100%" class="map__map" src="img/map.svg">
+            <div class="map__detail-card">
+                <div class="detail-card__title">
+                    <img width="61px" src="img/nigger.svg">
+                    <div class="detail-card__text">
+                        <div class="detail-card__name">David Smith</div>
+                        <div class="detail-card__profession">Food Rider</div>
+                    </div>
+                </div>
+                <div class="detail-card__details">
+                    <div class="detail-card__detail">
+                        <img src="img/Location-icon.svg">
+                        <div class="detail-card__text">
+                            <div class="detail-card__uppertext">Your Address</div>
+                            <div class="detail-card__lowertext">Horizenal Road Stree 1178<br>California, USA</div>
+                        </div>
+                    </div>
+                    <div class="detail-card__detail">
+                        <img src="img/Time-icon.svg">
+                        <div class="detail-card__text">
+                            <div class="detail-card__uppertext">Delivery Time</div>
+                            <div class="detail-card__lowertext">15 Minutes</div>
+                        </div>
+                    </div>
+                    <img width="2px" class="liniya_durackaya" src="img/liniya_durackaya.svg">
+                </div>
+                <div class="detail-card__status">Pending</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="payment">
+        <div class="container">
+            <div class="payment__product-cards">
+                <div class="payment__product-card">
+                    <img class="payment__palochki" src="img/palochki.svg">
+                    <div class="product-card__left-part">
+                        <img height="95px" src="img/Food-Image3-Edited.png">
+                        <div class="product-card__text">
+                            <div class="product-card__name">Chicken Hell</div>
+                            <div class="product-card__cost">$12.99</div>
+                        </div>
+                    </div>
+                    <div class="product-card__right-part">
+                        <div class="product-card__amount">
+                            <img src="img/menu_map/Minus.svg">
+                            03
+                            <img src="img/menu_map/Plus.svg">
+                        </div>
+                        <div class="product-card__sumcost">$38.97</div>
+                    </div>
+                </div>
+                <div class="payment__product-card">
+                    <div class="product-card__left-part">
+                        <img height="95px" src="img/Food-Image2-Edited.png">
+                        <div class="product-card__text">
+                            <div class="product-card__name">Chicken Hell</div>
+                            <div class="product-card__cost">$19.99</div>
+                        </div>
+                    </div>
+                    <div class="product-card__right-part">
+                        <div class="product-card__amount">
+                            <img src="img/menu_map/Minus.svg">
+                            01
+                            <img src="img/menu_map/Plus.svg">
+                        </div>
+                        <div class="product-card__sumcost">$19.99</div>
+                    </div>
+                </div>
+            </div>
+            <div class="payment__coupon-section">
+                <div class="payment__coupon">
+                    <img height="30px" src="img/coupon-icon.svg">
+                    <input class="coupon__input" placeholder="Apply Coupon">
+                </div>
+                <button class="payment__coupon-apply">Apply</button>
+            </div>
+            <div class="payment__total">
+                <div class="payment__subtotal">
+                    Subtotal <span>$58.96</span>
+                </div>
+                <div class="payment__subtotal">
+                    Delivery <span>$3.59</span>
+                </div>
+                <div class="payment__supertotal">
+                    Total <span>$62.55</span>
+                </div>
+                <div class="payment__button--sostrelkoy">
+                    <button class="payment__button">Review Payment</button>
+                    <img class="payment__button-strelko1" src="img/Arrow.png">
+                    <img class="payment__button-strelko2" src="img/Arrow.png">
+                </div>
+            </div>
+        
+        </div>
+    </section>
+    
+    <section>
+        <div class="subscribe">
+            <div class="subscribe__maskgroup">
+                <div class="subscribe__get50">GET 50%</div>
+
+                <div class="subscribe__enteremail">
+                    <input type="text" placeholder="Enter Your Email Adress" />
+                    <a href="#" class="subscribe__subscribe">SUBSCRIBE</a>
+                </div>
+            </div>
+            <div class="subscribe__groupburgers">
+                <div class="subscribe__leftgroupburgers">
+                    <img src="img/Group 34845.png">
+                </div>
+
+                <div class="subscribe__rightgroupburgers">
+                    <img src="img/Group 34844.png">
+                </div>
+            </div>
+
+            <div class="subscribe__foodimage">
+                <img src="img/Food Image.png" width=274px height=276px>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <footer>
+        <div class="container">
+            <div class="upperpart">
+                <a href="" class="logo">
+                    <img src="img/logo.svg" alt="logo" width=61.88px height=57px>
+                    eatly
+                </a>
+                <div class="links">
+                    <a href="#" class="footer__button">Blog</a>
+                    <a href="#" class="footer__button">Pricing</a>
+                    <a href="#" class="footer__button">About Us</a>
+                    <a href="contact_us.html" class="footer__button">Contact</a>
+                </div>
+            </div>
+
+            <div class="lowerpart">
+                <div class="footerbuttons">
+                    &#9400 2023 EATLY All Rights Reserved.
+                </div>
+                <div class="networks">
+                    <a href="#" class="instagram">
+                        <img src="img/instagram.png">
+                    </a>
+                    <a href="#" class="linkedin">
+                        <img src="img/linkedin.png">
+                    </a>
+                    <a href="#" class="facebook">
+                        <img src="img/facebook.png">
+                    </a>
+                    <a href="#" class="twitter">
+                        <img src="img/twitter.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

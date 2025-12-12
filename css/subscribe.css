@@ -5,7 +5,7 @@
     display: flex;
     position:relative;
     margin: 0 auto;
-    margin-bottom: 216px;
+    margin-bottom: 171px;
     border-radius: 30px;
 }
 
@@ -13,7 +13,7 @@
     position: absolute;
     font-weight: 800;
     font-size: 70px;
-    color: #ffffff;
+    color: #dedcef;
     padding: 37px 0 0 66px;
     z-index: 2;
 }
@@ -34,7 +34,7 @@
     bottom: 61px;
     left: 66px;
     border-radius: 14.2px;
-    background-color: #FFFFFF;
+    background-color: #dedcef;
     box-shadow: 0 7.25px 45.33px rgba(0, 0, 0, 0.1);
     padding: 0 20px;
     box-sizing: border-box;
@@ -52,6 +52,7 @@
     font-size: 16px;
     color: #878787;
     padding: 0;
+    background-color: #dedcef;
 }
 
 .subscribe__enteremail a{
@@ -93,4 +94,8 @@
     width: 892.92px;
     top: 0;
     left: 321px;
+}
+
+.subscribe__subscribe:hover{
+    background-color: #5e54a5;
 }
