@@ -1,6 +1,16 @@
 .sign-up {
 	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+
+.sign-up__left {
+	width: 100%;
+	display: flex;
 	background-color: #FFFFFF;
+	padding-left: 48px;
+	padding-right: 48px;
+	flex-direction: column;
 }
 
 .sign-up a {
@@ -193,7 +203,7 @@
 }
 
 .sign-up__copyright {
-	width: 681px;
+	width: 100%;
 	height: 24;
 	display: flex;
 	justify-content: space-between;
@@ -213,9 +223,11 @@
 }
 
 .sign-up__side-img {
-	width: 100%;
-	height: 1026px;
+	width: 80%;
 	background-color: #6C5FBC;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .side-img__img {
@@ -223,12 +235,12 @@
 }
 
 .side-img__img img {
-	width: 100%;
+	max-width: 546px;
 }
 
 .side-img__text {
-	width: 500;
-	height: 165;
+	width: 500px;
+	height: 165px;
 	display: flex;
 	flex-direction: column;
 	gap: 32px;
@@ -252,6 +264,7 @@
 	font-size: 14px;
 	line-height: 150%;
 	letter-spacing: 0.2px;
+	opacity: 0.7;
 }
 
 .side-img__text--img {
