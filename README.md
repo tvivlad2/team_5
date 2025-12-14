@@ -4,7 +4,6 @@
     *   Казина Камила
     *   Латыпов Тимур
     *   Муртазин Вадим
-    *   Хайруллина Камила (пропала без вести)
 
 
 *   **[МАКЕТ](https://www.figma.com/design/jHDVsiVR8JBpkMsYehKCEj/Eatly?node-id=1-11265)**
