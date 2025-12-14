@@ -1,16 +1,16 @@
 .sign-up {
 	display: flex;
-	margin: 0 auto;
-	justify-content: space-between;
+	min-height: 100vh;
 }
 
 .sign-up__left {
-	width: 100%;
+	width: 55%;
 	display: flex;
 	background-color: #FFFFFF;
 	padding-left: 48px;
 	padding-right: 48px;
 	flex-direction: column;
+	align-items: center;
 }
 
 .sign-up a {
@@ -19,6 +19,8 @@
 
 .sign-up__logo {
 	margin-top: 32px;
+	margin-bottom: 88px;
+	margin-right: auto;
 	width: 45.94px;
 	height: 42.31px;
 }
@@ -26,12 +28,10 @@
 .sign-up__box {
 	max-width: 388px;
 	height: 692px;
-	margin-top: 88px;
-	margin-left: 141px;
 	display: flex;
 	flex-direction: column;
-	position: relative;
-	align-items: flex-start;
+	margin-top: auto;
+    margin-bottom: auto;
 }
 
 .upper__title {
@@ -223,24 +223,22 @@
 }
 
 .sign-up__side-img {
-	width: 80%;
+	width: 45%;
 	background-color: #6C5FBC;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
-
-.side-img__img {
-	margin-top: 175px;
+	justify-content: center;
+	padding-left: 48px;
+	padding-right: 48px;
 }
 
 .side-img__img img {
-	max-width: 546px;
+	width: 100%;
 }
 
 .side-img__text {
-	width: 500px;
-	height: 165px;
+	max-width: 500px;
 	display: flex;
 	flex-direction: column;
 	gap: 32px;
