@@ -26,7 +26,7 @@
 }
 
 .sign-up__box {
-	max-width: 388px;
+	width: 388px;
 	height: 692px;
 	display: flex;
 	flex-direction: column;
