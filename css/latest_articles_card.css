@@ -1,0 +1,101 @@
+.title_article_card {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    text-align: center;
+    color: #323142;
+}
+
+.title_article_card_color {
+    color: #6C5FBC;
+}
+
+.conteiner_cards {
+    display: flex;             
+    flex-wrap: wrap;           
+    justify-content: center;   
+    gap: 43.88px;                 
+    padding: 70.31px;  
+    row-gap: 83.93px;
+}
+
+
+.card {
+    background-color: #fff;    
+    border-radius: 15.85px;      
+    box-shadow: 0 3.91px 46.86px 0 #D8D8DB; 
+    width: 348.81px;  
+    height: 440.76px;           
+    padding: 16px 10px 0px 10px;             
+    text-align: center;        
+    display: flex;             
+    flex-direction: column;    
+    align-items: center;       
+    
+}
+
+.title_card {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 21.14px;
+    color: #252525;
+    align-self: flex-start;
+    padding: 22px 10px 0px 10px; 
+}
+
+.card_picture {
+    width: 309.69px;
+    height: 272.36px;
+}
+
+.ava_picture {
+    width: 43.70px;
+    height: 43.70px;
+}
+
+.info_card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: flex-start;
+    padding: 22px 10px; 
+}
+
+.written {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 11.77px;
+    color: #8D8D8D;
+    align-self: flex-start;
+}
+
+.Perperzon {
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 17.02px;
+    color: #000000;
+    align-self: flex-start;
+}
+.ava {
+       
+}
+
+.author {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    padding-left: 11.45px;
+         
+}
+
+.date {
+    display: flex;
+    align-items: end;
+    padding-left: 65px;
+    padding-bottom: 7px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 15.85px;
+    color: #B7B4B4;
+    
+}
