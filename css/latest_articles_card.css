@@ -1,7 +1,6 @@
-.empty {
-    height: 95px;
+.blog__articles {
+    margin-top: 95px;
 }
-
 .title_article_card {
     font-family: Poppins, sans-serif;
     font-weight: 600;
@@ -15,11 +14,11 @@
 }
 
 .conteiner_cards {
-    display: flex;             
-    flex-wrap: wrap;           
-    justify-content: center;   
-    gap: 43.88px;                 
-    padding: 70.31px;  
+    display: grid;
+    grid-template-columns: repeat(3, 348.81px);
+    justify-content: center;
+    gap: 43.88px 83.93px;
+    padding: 70.31px;
     row-gap: 83.93px;
 }
 
@@ -30,7 +29,7 @@
     box-shadow: 0 3.91px 46.86px 0 #D8D8DB; 
     width: 348.81px;  
     height: 440.76px;           
-    padding: 16px 10px 0px 10px;             
+    padding: 16px 20.08px 0px 19.03px;             
     text-align: center;        
     display: flex;             
     flex-direction: column;    
@@ -44,7 +43,7 @@
     font-size: 21.14px;
     color: #252525;
     align-self: flex-start;
-    padding: 22px 10px 0px 10px; 
+    padding: 22px 10px 0px 0px; 
 }
 
 .card_picture {
@@ -62,7 +61,7 @@
     flex-direction: row;
     justify-content: flex-start;
     align-self: flex-start;
-    padding: 22px 10px; 
+    padding: 22px 0px; 
 }
 
 .written {
@@ -80,9 +79,7 @@
     color: #000000;
     align-self: flex-start;
 }
-.ava {
-       
-}
+
 
 .author {
     display: flex;
@@ -95,7 +92,7 @@
 .date {
     display: flex;
     align-items: end;
-    padding-left: 65px;
+    padding-left: 72px;
     padding-bottom: 7px;
     font-family: Poppins, sans-serif;
     font-weight: 500;
@@ -112,6 +109,6 @@
 
 }
 .article-arrow img{
-    height: 21.33px;
-    width: 121.05px;
+    height: 30px;
+    width: 170.22px;
 }

@@ -1,0 +1,18 @@
+.sign-in__to-pass {
+	opacity: 0.7;
+	font-weight: 400;
+	font-size: 15.56px;
+	line-height: 100%;
+	color: #6C5FBC;
+	text-align: right;
+	margin-bottom: 6px;
+	margin-top: -13px;
+}
+
+.sign-in__to-pass a {
+	color: #6C5FBC;
+}
+
+.sign-up__copyright {
+	margin-top: 117px;
+}
