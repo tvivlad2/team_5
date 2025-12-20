@@ -7,19 +7,22 @@
     font-size: 45px;
     text-align: center;
     color: #323142;
+    padding-bottom: 75px;
 }
 
 .title_article_card_color {
     color: #6C5FBC;
 }
 
+
+
 .conteiner_cards {
-    display: grid;
-    grid-template-columns: repeat(3, 348.81px);
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 43.88px 83.93px;
-    padding: 70.31px;
-    row-gap: 83.93px;
+    gap: 44px;
+    max-width: calc(3 * 388px + 2 * 44px);
+    margin: 0 auto;
 }
 
 
@@ -29,7 +32,7 @@
     box-shadow: 0 3.91px 46.86px 0 #D8D8DB; 
     width: 348.81px;  
     height: 440.76px;           
-    padding: 16px 20.08px 0px 19.03px;             
+    padding: 25.6px 20.08px 0px 19.03px;             
     text-align: center;        
     display: flex;             
     flex-direction: column;    
@@ -43,7 +46,7 @@
     font-size: 21.14px;
     color: #252525;
     align-self: flex-start;
-    padding: 22px 10px 0px 0px; 
+    padding: 21.59px 10px 0px 0px; 
 }
 
 .card_picture {
@@ -61,7 +64,7 @@
     flex-direction: row;
     justify-content: flex-start;
     align-self: flex-start;
-    padding: 22px 0px; 
+    padding: 20px 0px; 
 }
 
 .written {
