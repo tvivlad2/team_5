@@ -142,6 +142,7 @@
     padding: 5px 10px;
 }
 
+
 .product-card__right-part {
     display: flex;
     align-items: center;
@@ -319,4 +320,228 @@
 
 .payment__button:hover {
     background-color: #4f468a;
+}
+
+
+
+@media (max-width: 1024px) {
+
+.map {
+    margin-top: 56px;
+}
+
+.map__map {
+    min-width: 800px;
+    width: 887px;
+}
+
+
+
+
+  .map__detail-card {
+    width: 320.96px;
+    height: 219px;
+    top: 397px;
+  }
+
+.detail-card__title {
+    gap: 14px;
+    padding: 14px 0px 19px 13px;
+    height: 76px;
+}
+
+.detail-card__title img {
+    height: 41px;
+    width: 43px;
+}
+
+  .detail-card__name {
+    font-size: 15px;
+  }
+
+  .detail-card__profession {
+    font-size: 11px;
+  }
+
+  .detail-card__detail img {
+    height: 29px;
+    width: 29px;
+  }
+  .liniya_durackaya {
+    bottom: 62px;
+    left: 26px;
+  }
+
+  .liniya_durackaya {
+    height: 29px;
+  }
+
+  .detail-card__uppertext {
+    font-size: 8px;
+  }
+  .detail-card__lowertext {
+    font-size: 9px;
+  }
+
+
+  .detail-card__detail {
+    gap: 20px;
+}
+
+  .detail-card__details {
+    padding: 22px 0px 30px 13px;
+    gap: 16px;
+  }
+
+.detail-card__text {
+    gap: 1px;
+
+}
+
+
+.detail-card__status {
+    padding: 7px 23px;
+    font-size: 11px;
+    right: 14px;
+    bottom: 16px;
+}
+
+ 
+
+
+  /*PAYMENT*/
+
+  .payment {
+    margin-top: 207px;
+    margin-bottom: 225px;
+}
+
+
+
+.product-card__left-part img{
+    height: 72px;
+    width: 70px;
+}
+
+    .payment__product-cards {
+        width: 513px;
+        height: 196px;
+        margin: 0 auto;
+    }
+
+.payment__product-card {
+    width: 484px;
+    height: 77px;
+}
+
+
+.product-card__name {
+    font-size: 15px;
+}
+
+.payment__palochki {
+    height: 29px;
+    width: 27px;
+    right: -29px;
+    top: -27px;
+}
+
+.product-card__right-part {
+    padding: 5px 40px;
+}
+
+.product-card__cost {
+    font-size: 12.8px;
+}
+
+.product-card__amount img{
+    width: 23px;
+    height: 22px;
+}
+
+.product-card__amount {
+   font-size: 12px;
+}
+
+.product-card__sumcost {
+    font-size: 11px;
+}
+
+
+.payment__coupon-section {
+    gap: 5.69px;
+    margin: 89px auto 0;
+    justify-content: center;
+}
+
+.payment__coupon {
+    width: 384px;
+    padding: 17px 14px;
+    height: 49px;
+    gap: 9.82px;
+}
+
+    .payment__coupon img{
+        width: 21px;
+        height: 15px;
+    }
+
+.coupon__input::placeholder {
+    font-size: 12px;
+}
+
+.coupon__input {
+    font-size: 12px;
+}
+
+
+
+
+.payment__coupon-apply {
+    font-size: 12px;
+    padding: 17px 28px;
+}
+
+.payment__total {
+    max-width: 492px;
+    margin: 37px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.payment__subtotal {
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+
+.payment__supertotal {
+    margin-top: 9px;
+    font-size: 17.78px;
+}
+
+.payment__button {
+    font-size: 14px;
+    padding: 17px 0;
+    margin-top: 32px;
+    width: 484px;
+}
+
+.payment__button-strelko1 {
+    width: 85px;
+    height: 85px;
+    right: -74px;
+    top: -12px;
+}
+
+.payment__button-strelko2 {
+    width: 85px;
+    height: 85px;
+    top: -11px;
+    left: -90px;
+}
+
+
+
+
 }
