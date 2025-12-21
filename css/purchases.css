@@ -174,3 +174,23 @@
     gap: 22px;
 }
 
+@media(min-width:375px) and (max-width:1024px){
+    .purchases__title{font-size: 36.21px;}
+    .purchases__card{width: 245.45px; height: 62.79px;}
+    img[src="img/Food-Image1-Edited.png"]{width: 54.94px; height: 56.94px;}
+    img[src="img/Food-Image2-Edited.png"], img[src="img/Food-Image3-Edited.png"]{width: 51.37px; height: 52px;}
+    .purchases__card__title{font-size: 13.56px;}
+    .purchases__card__status{font-size: 8.56px;}
+    .purchases__card__time{font-size: 9.28px;}
+    .purchases__illustration{width: 379.73px; height: 351.71px;}
+    .illustration__title{font-size: 20.1px;}
+    .illustration__period{font-size: 13.4px; width: 125.09px; height: 37.97px;}
+    .content__card{width: 326.12px; height: 96.05px;}
+    img[src="img/arrow-down.svg"]{width: 8.94px; height: 4.47px;}
+    .content__title{font-size: 13.4px;}
+    .content__subtitle{font-size: 11.17px;}
+    img[src="img/purchase-icon1.svg"]{width: 35.74px; height: 35.74px;}
+    .content__money{font-size: 15.64px;}
+    img[src="img/divider.svg"], img[src="img/divider2.svg"]{width: 290.38px; height: 6.7px;}
+    img[src="img/purchase-icon2.svg"]{width: 35.74px; height: 35.74px;}
+}

@@ -98,3 +98,19 @@ header a {
     background-color: #5a4ea3;
     color: #FFFFFF;
 }
+
+@media(min-width:375px) and (max-width:1024px){
+    .logo img{
+        width:32.67px;
+        height:30.09px;
+    }
+    .logo{
+        font-size: 15.06px;
+    }
+    .nav{
+        font-size: 12.68px;
+    }
+    .buttons{
+        font-size: 12.68px;
+    }
+}

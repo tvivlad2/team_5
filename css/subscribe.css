@@ -99,3 +99,14 @@
 .subscribe__subscribe:hover{
     background-color: #5e54a5;
 }
+
+@media(min-width:375px) and (max-width:1024px){
+    .subscribe{width: 863.29px; height: 199.11px;}
+    .subscribe__get50{font-size: 49.78px;}
+    .subscribe__enteremail{width: 312.7px; height: 48.36px;}
+    .subscribe__enteremail ::placeholder{font-size: 11.57px;}
+    .subscribe__enteremail a{width: 94.13px; height: 38px; font-size: 10.49px;}
+    img[src="img/Food Image.png"]{width: 194.89px; height: 196.28px;}
+    img[src="img/Group 34845.png"]{width: 434.96px; height: 148.51px;left:-20px}
+    img[src="img/Group 34844.png"]{width: 574.96px; height: 198.51px;}
+}

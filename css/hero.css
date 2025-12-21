@@ -126,3 +126,14 @@
     align-items: center;
     gap: 30px;
 }
+
+@media(min-width:375px) and (max-width:1024px){
+    .hero__subtitle{font-size: 10.67px;}
+    .hero__title{font-size: 53.33px;}
+    .hero__image-block img{height:431.65px; width:483.9px}
+    .hero__description{font-size: 12.8px;}
+    .button.hero__button1, .button.hero__button2{font-size: 11.57px;}
+    img[src="img/trustpilot.svg"]{width:87.47px;height:21.47px;}
+    .rating__stars img{width: 11.35px; height:10.87px;}
+    .rating__text{font-size: 11.38px;}
+}

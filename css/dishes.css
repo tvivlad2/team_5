@@ -180,3 +180,16 @@
 .dishes--menu-page .restaurants__viewall {
     margin-top: 0px;
 }
+
+@media(min-width:375px) and (max-width:1024px){
+    .dishes__title{font-size: 32px;}
+    .dishes__card{width: 159.74px; height: 277.59px;}
+    .dishes__card__image{width: 143.03px; height: 148.05px;}
+    .dishes__card__tag{font-size: 8.12px;}
+    .dishes__card__title{font-size: 16.39px;}
+    .dishes__card__info{font-size: 12.3px;}
+    .card__price{font-size: 18.44px;}
+    img[src="img/add.svg"]{width: 31.17px; height: 28.25px;}
+    img[src="img/card-star.svg"]{width: 16.39px; height: 16.39px;}
+    img[src="img/heart-icon.svg"]{width: 15.61px; height: 12.93px;}
+}
