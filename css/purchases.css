@@ -99,6 +99,7 @@
 }
 
 .purchases__text {
+    position: relative;
     max-width: 560px;
 }
 
@@ -174,3 +175,103 @@
     gap: 22px;
 }
 
+.purchases__strelochka-mobile {
+    display: none;
+    width: 120px;
+    transform: rotate(-90deg);
+    position: absolute;
+    right: -25px;
+}
+
+
+@media (max-width: 768px) {
+    .purchases .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .purchases__text {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .purchases__title {
+        font-size: 30px;
+        line-height: 1.2;
+        margin-bottom: 30px;
+    }
+
+    .purchases__card {
+        max-width: 228px;
+        min-width: 188px;
+        padding: 0 13px;
+        height: 58.33px;
+    }
+
+    .purchases__card__title {
+        font-size: 12.59px;
+    }
+
+    .purchases__card__status {
+        font-size: 8px;
+    }
+
+    .purchases__card__time {
+        font-size: 8px;
+    }
+
+    .purchases__card__image {
+        width: 51px;
+        height: auto;
+    }
+
+    .illustration__title {
+        font-size: 16.75px;
+    }
+
+    .illustration__period {
+        font-size: 11.16px;
+        width: 104px;
+        height: 31.63px;
+        padding-left: 10px;
+        border-radius: 7.44px;
+    }
+
+    .illustration__period img {
+        width: 7.44px;
+    }
+
+    .content__title {
+        font-size: 11px;
+    }
+
+    .content__subtitle {
+        font-size: 9.3px;
+    }
+
+    .content__icon {
+        width: 29.77px;
+    }
+
+
+    .purchases__illustration {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .content__card {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+    
+    .content__money {
+        font-size: 13px;
+    }
+
+    .purchases__strelochka-mobile {
+        display: block;
+    }
+}

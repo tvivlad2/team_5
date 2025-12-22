@@ -12,13 +12,14 @@ footer a {
 .links {
     font-size: 20px;
 }
+
 header a {
     text-decoration: none;
 }
 
 .hdr_flex {
     display: flex;
-	align-items: center;
+    align-items: center;
     padding-top: 48px;
     width: 100%;
 }
@@ -34,20 +35,20 @@ header a {
     color: #6C5FBC;
 }
 
-.logo a, 
-.logo a:active, 
+.logo a,
+.logo a:active,
 .logo a:visited {
     color: #6C5FBC;
 }
 
-.nav a.current-page{
+.nav a.current-page {
     color: #6C5FBC;
 }
 
 .nav {
     display: flex;
     gap: 53px;
-	margin-left: clamp(20px, 8vw, 103px); 
+    margin-left: clamp(20px, 8vw, 103px);
     font-family: Inter, sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -65,14 +66,15 @@ header a {
 .buttons {
     display: flex;
     align-items: center;
-	margin-left: auto;
+    margin-left: auto;
     gap: 15px;
     font-family: Inter, sans-serif;
     font-weight: 600;
     font-size: 18px;
 }
 
-.button1, .button2 {
+.button1,
+.button2 {
     padding: 20px 25px;
     border-radius: 18px;
     cursor: pointer;
@@ -97,4 +99,29 @@ header a {
 .button2:hover {
     background-color: #5a4ea3;
     color: #FFFFFF;
+}
+
+.burger-menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index: 10;
+    margin-left: auto;
+}
+
+@media (max-width: 768px) {
+    .nav,
+    .buttons {
+        display: none;
+    }
+
+    .burger-menu-btn {
+        display: block;
+        margin-left: auto;
+    }
 }

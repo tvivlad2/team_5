@@ -1,20 +1,19 @@
-
 .plate_container {
     min-height: 220px;
     color: white;
     position: relative;
+    overflow: hidden;
+    z-index: 1;
     text-align: center;
     white-space: nowrap;
     padding: 66px;
 
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
- 
-
-.plate-background {
+.plate-background-img {
     position: absolute;
     top: 0;
     left: 0;
@@ -22,29 +21,37 @@
     height: 100%;
     z-index: -1;
     object-fit: cover;
+    z-index: -1;
 }
 
-
+.plate-background-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
 
 .plate_part {
     display: inline-block;
     text-align: center;
     position: relative;
-    vertical-align: middle; 
-    margin: 0 66px;;
+    vertical-align: middle;
+    margin: 0 66px;
 }
 
 
-.plate_part + .plate_part::before {
+.plate_part+.plate_part::before {
     content: "";
     position: absolute;
     top: 50%;
     left: -66px;
     width: 1px;
-    height: 123px; 
+    height: 123px;
     background: #C5C5C5;
     opacity: 0.15;
-    transform: translateX(-50%) translateY(-50%); 
+    transform: translateX(-50%) translateY(-50%);
 }
 
 
@@ -65,4 +72,36 @@
     line-height: 150%;
     text-align: center;
     color: #c5bfed;
+}
+
+@media (max-width: 768px) {
+    .plate_container {
+        height: 748px; 
+        display: flex;
+        flex-direction: column;
+        gap: 120px;
+        padding: 40px 10px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .plate_part {
+        display: block;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+
+    .plate_part+.plate_part::before {
+        content: "";
+        position: absolute;
+        top: -60px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 246px;
+        height: 1px;
+        background: #C5C5C5;
+        opacity: 0.15;
+    }
 }

@@ -2,120 +2,185 @@
 <html>
 
 <head>
-    <title>eatly</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Onest:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+	<title>eatly</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" 
+	<link
+		href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
 		rel="stylesheet">
-    <link rel="stylesheet" href="css/global.css" />
-    <link rel="stylesheet" href="css/reset.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Onest:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/global.css" />
+	<link rel="stylesheet" href="css/reset.css" />
 	<link rel="stylesheet" href="css/sign-up.css" />
+	<link rel="stylesheet" href="css/header.css" />
+	<link rel="stylesheet" href="css/footer.css" />
 </head>
 
 <body>
+	<div class="mobile-adaptive">
+		<header>
+			<div class="container">
+				<div class="hdr_flex">
+					<a href="index.html" class="logo">
+						<img src="img/logo.svg" alt="logo" width=45.94px height=42.31px>
+						eatly
+					</a>
+					<div class="nav">
+						<a class="current-page" href="menu.html">Menu</a>
+						<a href="latest_articles.html">Blog</a>
+						<a href="pricing.html">Pricing</a>
+						<a href="contact_us.html">Contact</a>
+					</div>
+					<div class="buttons">
+						<a class="button1" href="sign-in.html">Login</a>
+						<a class="button2" href="sign-up.html">Sign Up</a>
+					</div>
+					<img src="img/burger.svg" class="burger-menu-btn">
+				</div>
+			</div>
+		</header>
+		<hr class="section-divider">
+	</div>
 
-<section class="sign-up">
+	<section class="sign-up">
 
-	<section class="sign-up__left">
-		<!--Иконка лого-->
-		<div class="sign-up__logo">
-			<a href="index.html" class="logo">
-				<img src="img/logo.svg" alt="logo" width=45.94px height=42.31px>
-			</a>
-		</div>
+		<section class="sign-up__left">
+			<!--Иконка лого-->
+			<div class="sign-up__logo">
+				<a href="index.html" class="logo">
+					<img src="img/logo.svg" alt="logo" width=45.94px height=42.31px>
+				</a>
+			</div>
 
-		<!--поле Sign Up-->
-		<section class="sign-up__box">
-				
-					<div class="upper__title">
-						Sign Up To eatly
-					</div>
-					
-					<!--кнопки регистрации через Google и Apple-->
-					<div class="upper__accounts">
-						<a href="#" class="upper__accounts--button">
-							<img src="img/sign-up/google-icon.svg" class="upper__accounts--icon">
-						</a>
-						<a href="#" class="upper__accounts--button">
-							<img src="img/sign-up/apple-icon.svg" class="upper__accounts--icon">
-						</a>
-					</div>
-					
-					<div class="upper__or">
-						OR
-					</div>
-					
-					<!--Поля ввода-->
-					<div class="lower__input">
-						<img src="img/sign-up/user.svg" class="input__icon icon--default"/>
-						<img src="img/sign-up/user-active.svg" class="input__icon icon--active"/>
-						<input type="text" placeholder="Full Name"/>
-					</div>
-					
-					<div class="lower__input">
-						<img src="img/sign-up/email.svg" class="input__icon icon--default"/>
-						<img src="img/sign-up/email-active.svg" class="input__icon icon--active"/>
-						<input type="email" placeholder="Email"/>
-					</div>
-					
-					<div class="lower__input">
-						<img src="img/sign-up/lock.svg" class="input__icon icon--default"/>
-						<img src="img/sign-up/lock-active.svg" class="input__icon icon--active"/>
-						<input type="password" placeholder="Password"/>
-						<img src="img/sign-up/eye.svg" class="input__icon input__icon--right icon--default"/>
-						<img src="img/sign-up/eye-active.svg" class="input__icon input__icon--right icon--active"/>
-					</div>
-					
-					<!--кнопка sign up-->
-					<div class="sign-up__box--button" type="button">
-						SIGN UP
-					</div>
-					
-					<!--ссылка на sign in-->
-					<div class="sign-up__to-sign-in">
-						Already Have An Account? <a href="sign-in.html">Log In</a>
-					</div>
-					
+			<!--поле Sign Up-->
+			<section class="sign-up__box">
+
+				<div class="upper__title">
+					Sign Up To eatly
+				</div>
+
+				<!--кнопки регистрации через Google и Apple-->
+				<div class="upper__accounts">
+					<a href="#" class="upper__accounts--button">
+						<img src="img/sign-up/google-icon.svg" class="upper__accounts--icon">
+					</a>
+					<a href="#" class="upper__accounts--button">
+						<img src="img/sign-up/apple-icon.svg" class="upper__accounts--icon">
+					</a>
+				</div>
+
+				<div class="upper__or">
+					OR
+				</div>
+
+				<!--Поля ввода-->
+				<div class="lower__input">
+					<img src="img/sign-up/user.svg" class="input__icon icon--default" />
+					<img src="img/sign-up/user-active.svg" class="input__icon icon--active" />
+					<input type="text" placeholder="Full Name" />
+				</div>
+
+				<div class="lower__input">
+					<img src="img/sign-up/email.svg" class="input__icon icon--default" />
+					<img src="img/sign-up/email-active.svg" class="input__icon icon--active" />
+					<input type="email" placeholder="Email" />
+				</div>
+
+				<div class="lower__input">
+					<img src="img/sign-up/lock.svg" class="input__icon icon--default" />
+					<img src="img/sign-up/lock-active.svg" class="input__icon icon--active" />
+					<input type="password" placeholder="Password" />
+					<img src="img/sign-up/eye.svg" class="input__icon input__icon--right icon--default" />
+					<img src="img/sign-up/eye-active.svg" class="input__icon input__icon--right icon--active" />
+				</div>
+
+				<!--кнопка sign up-->
+				<div class="sign-up__box--button" type="button">
+					SIGN UP
+				</div>
+
+				<!--ссылка на sign in-->
+				<div class="sign-up__to-sign-in">
+					Already Have An Account? <a href="sign-in.html">Log In</a>
+				</div>
+
+			</section>
+
+			<!--надписи внизу-->
+			<div class="sign-up__copyright">
+				<a href="#">Privacy Policy</a>
+				Copyright 2022
+			</div>
 		</section>
-		
-		<!--надписи внизу-->
-		<div class="sign-up__copyright">
-			<a href="#">Privacy Policy</a>
-			Copyright 2022
-		</div>
-	</section>
-	
-	<!--картинка справа-->
-	<section class="sign-up__side-img">
-		
+
+		<!--картинка справа-->
+		<section class="sign-up__side-img">
+
 			<div class="side-img__img">
 				<img src="img/sign-up/side-illustration.svg" />
 			</div>
 			<div class="side-img__text">
 				<div class="side-img__text--title">
-					Find Foods With Love 
+					Find Foods With Love
 				</div>
 				<div class="side-img__text--body">
-					Eatly Is The Food Delivery Dashboard And Having More Than 2K+ Dishes Including Asian, Chinese, Italians And Many More. Our Dashboard Helps You To Manage Orders And Money.
+					Eatly Is The Food Delivery Dashboard And Having More Than 2K+ Dishes Including Asian, Chinese,
+					Italians And Many More. Our Dashboard Helps You To Manage Orders And Money.
 				</div>
 				<div class="side-img__text--img">
-					<img src="img/sign-up/indicator.svg"/>
+					<img src="img/sign-up/indicator.svg" />
 				</div>
 			</div>
-		
+
+		</section>
+
 	</section>
-	
-</section>
+
+	<div class="mobile-adaptive">
+		<footer>
+        <div class="container">
+            <div class="upperpart">
+                <a href="" class="logo">
+                    <img src="img/logo.svg" alt="logo" width=61.88px height=57px>
+                    eatly
+                </a>
+                <div class="links">
+                    <a href="latest_articles.html" class="footer__button">Blog</a>
+                    <a href="pricing.html" class="footer__button">Pricing</a>
+                    <a href="#" class="footer__button">About Us</a>
+                    <a href="contact_us.html" class="footer__button">Contact</a>
+                </div>
+            </div>
+
+            <div class="lowerpart">
+                <div class="footerbuttons">
+                    &#9400 2023 EATLY All Rights Reserved.
+                </div>
+                <div class="networks">
+                    <a href="#" class="instagram">
+                        <img src="img/instagram.svg">
+                    </a>
+                    <a href="#" class="linkedin">
+                        <img src="img/linkedin.svg">
+                    </a>
+                    <a href="#" class="facebook">
+                        <img src="img/facebook.svg">
+                    </a>
+                    <a href="#" class="twitter">
+                        <img src="img/twitter.svg">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+	</div>
 
 </body>
 
