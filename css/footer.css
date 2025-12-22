@@ -69,3 +69,76 @@ footer {
 .footer__button:hover {
     color: #464646;
 }
+
+@media (max-width: 768px) {
+    footer .container {
+        position: relative;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    footer {
+        padding: 50px 0 30px 0;
+    }
+
+    .upperpart {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    footer .logo {
+        margin-bottom: 40px;
+        font-size: 18.74px;
+    }
+
+    footer .logo img {
+        width: 40.65px;
+    }
+    
+    .links {
+        flex-direction: column;
+        gap: 30px;
+        align-items: flex-start;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .links a {
+        color: #606060;
+    }
+
+    .lowerpart {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 30px;
+        width: 100%;
+    }
+
+    .footerbuttons {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        color: #606060;
+    }
+
+    .networks {
+        position: absolute;
+        top: 20px;
+        right: 30px; 
+        gap: 20px; 
+    }
+
+    .networks a {
+        width: 16px;
+        height: 16px;
+        flex-shrink: 0; 
+    }
+    
+    .networks a img {
+        width: 100%;
+        height: 100%;
+    }
+
+}

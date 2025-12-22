@@ -179,3 +179,58 @@
 .filter__apply:hover {
     background-color: #4c4385;
 }
+
+
+@media (max-width: 768px) {
+    .hero__block {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .hero__block--left,
+    .hero__block--right {
+        display: contents;
+    }
+
+    .hero__banner {
+        order: 1;
+        width: calc(100% + 40px);
+    }
+    
+    .banner__slider {
+        display: none;
+    }
+
+    .hero__block--right .hero__filter { 
+        order: 2;
+        width: 100%;
+        max-width: 100%;
+        min-height: auto;
+        margin-top: 30px;
+    }
+
+    .filter__buttons {
+        justify-content: space-between;
+        flex-wrap: wrap; 
+    }
+
+    .filter__button {
+        width: 55px;
+        height: 80px;
+    }
+
+    .filter__slider img {
+        width: 100%;
+    }
+
+    .hero__searchbar {
+        order: 3;
+        margin-top: 80px;
+    }
+    
+    .hero__buttons {
+        order: 4;
+        margin-top: 18px;
+    }
+}

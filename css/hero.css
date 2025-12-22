@@ -102,18 +102,17 @@
 
 }
 
-.hero__ratings > img {
+.hero__ratings>img {
     transform: translateY(-2px);
 }
 
-.rating__stars{
-    display: inline-block;
-    transform: translateY(1px);
+.rating__stars {
+    display: flex;
+    gap: 4px;
 }
 
 .rating__text {
     color: #64748b;
-    
 }
 
 .hero__image-block img {
@@ -125,4 +124,66 @@
     justify-content: space-between;
     align-items: center;
     gap: 30px;
+}
+
+@media (max-width:768px) {
+    .hero .container {
+        flex-direction: column;
+
+    }
+
+    .hero__subtitle {
+        color: #201F1F;
+        font-size: 9px;
+    }
+
+    .hero__subtitle::before {
+        background-color: #201F1F;
+        width: 33px;
+    }
+
+    .hero__text-block {
+        align-items: center;
+    }
+
+    .hero__title {
+        margin-top: 8px;
+        font-size: 46px;
+
+    }
+
+    .hero__title--ischeznet {
+        display: none;
+    }
+
+    .hero__description {
+        font-size: 11px;
+        line-height: 17px;
+        text-align: center;
+        color: #676767a8;
+    }
+
+    .rating__trustpilot {
+        width: 98px;
+    }
+
+    .rating__star {
+        width: 12px;
+    }
+
+    .rating__text {
+        font-size: 12.81px;
+    }
+
+    .hero__ratings {
+        align-items: center;
+    }
+
+    .rating__stars {
+        gap: 3.2px;
+    }
+
+    .hero__image-block img {
+        max-width: 100%;
+    }
 }

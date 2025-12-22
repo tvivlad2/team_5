@@ -1,6 +1,7 @@
 .blog__articles {
     margin-top: 95px;
 }
+
 .title_article_card {
     font-family: Poppins, sans-serif;
     font-weight: 600;
@@ -27,17 +28,16 @@
 
 
 .card {
-    background-color: #fff;    
-    border-radius: 15.85px;      
-    box-shadow: 0 3.91px 46.86px 0 #D8D8DB; 
-    width: 348.81px;  
-    height: 440.76px;           
-    padding: 25.6px 20.08px 0px 19.03px;             
-    text-align: center;        
-    display: flex;             
-    flex-direction: column;    
-    align-items: center;       
-    
+    background-color: #fff;
+    border-radius: 15.85px;
+    box-shadow: 0 3.91px 46.86px 0 #D8D8DB;
+    width: 348.81px;
+    height: 440.76px;
+    padding: 25.6px 20.08px 0px 19.03px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .title_card {
@@ -46,7 +46,7 @@
     font-size: 21.14px;
     color: #252525;
     align-self: flex-start;
-    padding: 21.59px 10px 0px 0px; 
+    padding: 21.59px 10px 0px 0px;
 }
 
 .card_picture {
@@ -64,7 +64,7 @@
     flex-direction: row;
     justify-content: flex-start;
     align-self: flex-start;
-    padding: 20px 0px; 
+    padding: 20px 0px;
 }
 
 .written {
@@ -87,9 +87,9 @@
 .author {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; 
+    align-items: flex-start;
     padding-left: 11.45px;
-         
+
 }
 
 .date {
@@ -101,7 +101,6 @@
     font-weight: 500;
     font-size: 15.85px;
     color: #B7B4B4;
-    
 }
 
 .article-arrow {
@@ -111,7 +110,60 @@
     align-self: center;
 
 }
-.article-arrow img{
+
+.article-arrow img {
     height: 30px;
     width: 170.22px;
+}
+
+@media (max-width:768px) {
+    .title_article_card {
+        font-size: 25.71px;
+    }
+
+    .card {
+        border-radius: 10.89px;
+        width: 239.53px;
+        height: 302.67px;
+        padding: 17.6px 13.08px 0px 13.03px;
+
+    }
+
+    .card_picture {
+        width: 212.67px;
+        height: 187.03px;
+    }
+
+    .title_card {
+        font-weight: 600;
+        font-size: 14.52px;
+        padding: 14px 0px 0px 0px;
+    }
+
+    .ava_picture {
+        width: 30px;
+        height: 30px;
+    }
+
+    .written {
+        font-size: 8.08px;
+    }
+
+    .Perperzon {
+        font-size: 11.69px;
+    }
+
+    .date {
+        padding-left: 35.37px;
+        padding-bottom: 7.65px;
+        font-size: 10.89px;
+    }
+
+    .info_card {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-self: flex-start;
+        padding: 13px 0px;
+    }
 }

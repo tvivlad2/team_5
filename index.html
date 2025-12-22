@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="css/restaurants.css" />
     <link rel="stylesheet" href="css/purchases.css" />
     <link rel="stylesheet" href="css/reviews.css" />
-	<link rel="stylesheet" href="css/dishes.css" />
+    <link rel="stylesheet" href="css/dishes.css" />
     <link rel="stylesheet" href="css/subscribe.css" />
     <link rel="stylesheet" href="css/plate.css" />
 </head>
@@ -38,7 +38,7 @@
                 </a>
                 <div class="nav">
                     <a href="menu.html">Menu</a>
-                    <a href="#">Blog</a>
+                    <a href="latest_articles.html">Blog</a>
                     <a href="pricing.html">Pricing</a>
                     <a href="contact_us.html">Contact</a>
                 </div>
@@ -46,6 +46,7 @@
                     <a class="button1" href="sign-in.html">Login</a>
                     <a class="button2" href="sign-up.html">Sign Up</a>
                 </div>
+                <img src="img/burger.svg" class="burger-menu-btn">
             </div>
         </div>
     </header>
@@ -54,7 +55,8 @@
         <div class="container">
             <div class="hero__text-block">
                 <div class="hero__subtitle">OVER 1000 USERS</div>
-                <h1 class="hero__title">Enjoy Foods All<br>Over The <span class="hero__title--highlight">World</span>
+                <h1 class="hero__title">Enjoy Foods <span class="hero__title--ischeznet">All</span><br>Over <span
+                        class="hero__title--ischeznet">The </span><span class="hero__title--highlight">World</span>
                 </h1>
                 <p class="hero__description">EatLy help you set saving goals, earn cash back offers, Go to disclaimer
                     for
@@ -65,13 +67,13 @@
                     <a href="#" class="button hero__button2">Go Pro</a>
                 </div>
                 <div class="hero__ratings">
-                    <img src="img/trustpilot.svg">
+                    <img class="rating__trustpilot" src="img/trustpilot.svg">
                     <div class="rating__stars">
-                        <img src="img/star.png">
-                        <img src="img/star.png">
-                        <img src="img/star.png">
-                        <img src="img/star.png">
-                        <img src="img/star.png">
+                        <img class="rating__star" src="img/star.png">
+                        <img class="rating__star" src="img/star.png">
+                        <img class="rating__star" src="img/star.png">
+                        <img class="rating__star" src="img/star.png">
+                        <img class="rating__star" src="img/star.png">
                     </div>
                     <span class="rating__text">4900+</span>
                 </div>
@@ -99,8 +101,11 @@
             <div class="plate_text">Reliable Customer Support</div>
             <div class="plate_text">We Provide Great Experiences</div>
         </div>
-        <img src="img/plate_bg.svg" alt="Background" class="plate-background" />
-        
+        <picture class="plate-background-wrapper">
+            <source media="(max-width: 768px)" srcset="img/background2.svg">
+            <img src="img/plate_bg.svg" alt="Background" class="plate-background-img" />
+        </picture>
+
     </div>
 
 
@@ -193,154 +198,153 @@
         </div>
     </section>
     <hr class="section-divider">
-	
-	<!--Our Top Dishes-->
-	<section class="dishes">
-		<div class="container">
-			<div class="dishes__title">
-				Our Top <span class="dishes__title--highligth">Dishes</span>
-			</div>
-			<div class="dishes__cards">
-				<!--Card 1-->
-				<a href="menu_map.html" class="dishes__card">
-					<div class="dishes__card__image">
-						<img src="img/Food-Image3-Edited.png" alt="food_image">
-					</div>
-					<div class="dishes__card__heart" type="button">
-							<img src="img/heart-icon.svg">
-						</div>
-					<div class="dishes__card__content">
-						<div class="dishes__card__tag tag--healthy">Healthy</div>
+
+    <section class="dishes">
+        <div class="container">
+            <div class="dishes__title">
+                Our Top <span class="dishes__title--highligth">Dishes</span>
+            </div>
+            <div class="dishes__cards">
+                <!--Card 1-->
+                <a href="menu_map.html" class="dishes__card">
+                    <div class="dishes__card__image">
+                        <img src="img/Food-Image3-Edited.png" alt="food_image">
+                    </div>
+                    <div class="dishes__card__heart" type="button">
+                        <img src="img/heart-icon.svg">
+                    </div>
+                    <div class="dishes__card__content">
+                        <div class="dishes__card__tag tag--healthy">Healthy</div>
                         <div class="dishes__card__title">Chicken Hell</div>
-						<div class="dishes__card__info">
+                        <div class="dishes__card__info">
                             24min •
                             <img src="img/card-star.svg">
                             4.8
                         </div>
-						<div class="card__price__cart">
-							<div class="card__price">
-								$12
-							</div>
-							<div class="card__cart" type="button">
-								<img src="img/add.svg">
-							</div>
-						</div>
-					</div>
-				</a>
-				
-				<!--Card 2-->
-				<a href="menu_map.html" class="dishes__card">
-					<div class="dishes__card__image">
-						<img src="img/Food-Image2-Edited.png" alt="food_image">
-					</div>
-					<div class="dishes__card__heart" type="button">
-							<img src="img/heart-icon.svg">
-						</div>
-					<div class="dishes__card__content">
-						<div class="dishes__card__tag tag--trending">Trending</div>
+                        <div class="card__price__cart">
+                            <div class="card__price">
+                                $12
+                            </div>
+                            <div class="card__cart" type="button">
+                                <img src="img/add.svg">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!--Card 2-->
+                <a href="menu_map.html" class="dishes__card">
+                    <div class="dishes__card__image">
+                        <img src="img/Food-Image2-Edited.png" alt="food_image">
+                    </div>
+                    <div class="dishes__card__heart" type="button">
+                        <img src="img/heart-icon.svg">
+                    </div>
+                    <div class="dishes__card__content">
+                        <div class="dishes__card__tag tag--trending">Trending</div>
                         <div class="dishes__card__title">Swe Dish</div>
-						<div class="dishes__card__info">
+                        <div class="dishes__card__info">
                             34min •
                             <img src="img/card-star.svg">
                             4.9
                         </div>
-						<div class="card__price__cart">
-							<div class="card__price">
-								$19
-							</div>
-							<div class="card__cart" type="button">
-								<img src="img/add.svg">
-							</div>
-						</div>
-					</div>
-				</a>
-				
-				<!--Card 3-->
-				<a href="menu_map.html" class="dishes__card">
-					<div class="dishes__card__image">
-						<img src="img/Food-Image3-Edited.png" alt="food_image">
-					</div>
-					<div class="dishes__card__heart" type="button">
-							<img src="img/heart-icon.svg">
-						</div>
-					<div class="dishes__card__content">
-						<div class="dishes__card__tag tag--supreme">Supreme</div>
+                        <div class="card__price__cart">
+                            <div class="card__price">
+                                $19
+                            </div>
+                            <div class="card__cart" type="button">
+                                <img src="img/add.svg">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!--Card 3-->
+                <a href="menu_map.html" class="dishes__card">
+                    <div class="dishes__card__image">
+                        <img src="img/Food-Image3-Edited.png" alt="food_image">
+                    </div>
+                    <div class="dishes__card__heart" type="button">
+                        <img src="img/heart-icon.svg">
+                    </div>
+                    <div class="dishes__card__content">
+                        <div class="dishes__card__tag tag--supreme">Supreme</div>
                         <div class="dishes__card__title">Swe Dish</div>
-						<div class="dishes__card__info">
+                        <div class="dishes__card__info">
                             34min •
                             <img src="img/card-star.svg">
                             4.9
                         </div>
-						<div class="card__price__cart">
-							<div class="card__price">
-								$19
-							</div>
-							<div class="card__cart" type="button">
-								<img src="img/add.svg">
-							</div>
-						</div>
-					</div>
-				</a>
-				
-				<!--Card 4-->
-				<a href="menu_map.html" class="dishes__card">
-					<div class="dishes__card__image">
-						<img src="img/Food-Image3-Edited.png" alt="food_image">
-					</div>
-					<div class="dishes__card__heart" type="button">
-							<img src="img/heart-icon.svg">
-						</div>
-					<div class="dishes__card__content">
-						<div class="dishes__card__tag tag--healthy">Healthy</div>
+                        <div class="card__price__cart">
+                            <div class="card__price">
+                                $19
+                            </div>
+                            <div class="card__cart" type="button">
+                                <img src="img/add.svg">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!--Card 4-->
+                <a href="menu_map.html" class="dishes__card">
+                    <div class="dishes__card__image">
+                        <img src="img/Food-Image3-Edited.png" alt="food_image">
+                    </div>
+                    <div class="dishes__card__heart" type="button">
+                        <img src="img/heart-icon.svg">
+                    </div>
+                    <div class="dishes__card__content">
+                        <div class="dishes__card__tag tag--healthy">Healthy</div>
                         <div class="dishes__card__title">Chicken Hell</div>
-						<div class="dishes__card__info">
+                        <div class="dishes__card__info">
                             24min •
                             <img src="img/card-star.svg">
                             4.8
                         </div>
-						<div class="card__price__cart" type="button">
-							<div class="card__price">
-								$12
-							</div>
-							<div class="card__cart">
-								<img src="img/add.svg">
-							</div>
-						</div>
-					</div>
-				</a>
-				
-				<!--Card 5-->
-				<a href="menu_map.html" class="dishes__card">
-					<div class="dishes__card__image">
-						<img src="img/Food-Image2-Edited.png" alt="food_image">
-					</div>
-					<div class="dishes__card__heart" type="button">
-							<img src="img/heart-icon.svg">
-						</div>
-					<div class="dishes__card__content">
-						<div class="dishes__card__tag tag--trending">Trending</div>
+                        <div class="card__price__cart" type="button">
+                            <div class="card__price">
+                                $12
+                            </div>
+                            <div class="card__cart">
+                                <img src="img/add.svg">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!--Card 5-->
+                <a href="menu_map.html" class="dishes__card">
+                    <div class="dishes__card__image">
+                        <img src="img/Food-Image2-Edited.png" alt="food_image">
+                    </div>
+                    <div class="dishes__card__heart" type="button">
+                        <img src="img/heart-icon.svg">
+                    </div>
+                    <div class="dishes__card__content">
+                        <div class="dishes__card__tag tag--trending">Trending</div>
                         <div class="dishes__card__title">Swe Dish</div>
-						<div class="dishes__card__info">
+                        <div class="dishes__card__info">
                             34min •
                             <img src="img/card-star.svg">
                             4.9
                         </div>
-						<div class="card__price__cart">
-							<div class="card__price">
-								$19
-							</div>
-							<div class="card__cart" type="button">
-								<img src="img/add.svg">
-							</div>
-						</div>
-					</div>
-				</a>
-			</div>
-			<a href="#" class="restaurants__viewall">View All <img src="img/view_all_arrow.svg"></a>
-		</div>
-	</section>
-	<hr class="section-divider">
-	
+                        <div class="card__price__cart">
+                            <div class="card__price">
+                                $19
+                            </div>
+                            <div class="card__cart" type="button">
+                                <img src="img/add.svg">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <a href="#" class="restaurants__viewall">View All <img src="img/view_all_arrow.svg"></a>
+        </div>
+    </section>
+    <hr class="section-divider">
+
     <section class="purchases">
         <div class="container">
             <div class="purchases__text">
@@ -372,6 +376,7 @@
                         <div class="purchases__card__time">Yesterday</div>
                     </div>
                 </div>
+                <img class="purchases__strelochka-mobile" src="img/app_arrow.svg">
             </div>
 
             <div class="purchases__illustration">
@@ -424,7 +429,7 @@
                     <div class="main-review__header">
                         <img class="review__pic" src="img/review_pic.png">
                         <div class="review__text-group">
-                            <span class="review__name">Alexander R.</span><br>
+                            <span class="review__name">Alexander R.</span>
                             <span class="review__status">01 Year With Us</span>
                         </div>
                         <img class="review__quote" src="img/quote.svg">
@@ -479,6 +484,9 @@
                         <div class="scrollbar__thumb"></div>
                     </div>
                 </div>
+                <div class="reviews__scrollbar mobile-scrollbar">
+                    <div class="scrollbar__thumb"></div>
+                </div>
             </div>
         </div>
     </section>
@@ -517,7 +525,7 @@
                     eatly
                 </a>
                 <div class="links">
-                    <a href="#" class="footer__button">Blog</a>
+                    <a href="latest_articles.html" class="footer__button">Blog</a>
                     <a href="pricing.html" class="footer__button">Pricing</a>
                     <a href="#" class="footer__button">About Us</a>
                     <a href="contact_us.html" class="footer__button">Contact</a>
@@ -530,16 +538,16 @@
                 </div>
                 <div class="networks">
                     <a href="#" class="instagram">
-                        <img src="img/instagram.png">
+                        <img src="img/instagram.svg">
                     </a>
                     <a href="#" class="linkedin">
-                        <img src="img/linkedin.png">
+                        <img src="img/linkedin.svg">
                     </a>
                     <a href="#" class="facebook">
-                        <img src="img/facebook.png">
+                        <img src="img/facebook.svg">
                     </a>
                     <a href="#" class="twitter">
-                        <img src="img/twitter.png">
+                        <img src="img/twitter.svg">
                     </a>
                 </div>
             </div>

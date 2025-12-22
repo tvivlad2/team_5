@@ -3,13 +3,13 @@
     height: 280px;
     background: #5C4EAE;
     display: flex;
-    position:relative;
+    position: relative;
     margin: 0 auto;
     margin-bottom: 171px;
     border-radius: 30px;
 }
 
-.subscribe__get50{
+.subscribe__get50 {
     position: absolute;
     font-weight: 800;
     font-size: 70px;
@@ -18,14 +18,14 @@
     z-index: 2;
 }
 
-.subscribe__foodimage{
+.subscribe__foodimage {
     position: absolute;
     bottom: -60px;
     right: 72px;
     z-index: 3;
 }
 
-.subscribe__enteremail{
+.subscribe__enteremail {
     display: flex;
     position: absolute;
     align-items: center;
@@ -42,7 +42,7 @@
     z-index: 2;
 }
 
-.subscribe__enteremail input{
+.subscribe__enteremail input {
     all: unset;
     z-index: 2;
     font-family: Poppins;
@@ -55,7 +55,7 @@
     background-color: #dedcef;
 }
 
-.subscribe__enteremail a{
+.subscribe__enteremail a {
     display: flex;
     position: absolute;
     z-index: 2;
@@ -81,14 +81,14 @@
     pointer-events: none;
 }
 
-.subscribe__leftgroupburgers{
+.subscribe__leftgroupburgers {
     position: absolute;
     height: 490.1px;
     width: 892.92px;
     top: 0;
 }
 
-.subscribe__rightgroupburgers{
+.subscribe__rightgroupburgers {
     position: absolute;
     height: 490.1px;
     width: 892.92px;
@@ -96,6 +96,75 @@
     left: 321px;
 }
 
-.subscribe__subscribe:hover{
+.subscribe__subscribe:hover {
     background-color: #5e54a5;
+}
+
+@media (max-width: 768px) {
+    .subscribe {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: auto;
+        padding-bottom: 100px;
+        padding-top: 30px;
+        margin-left: 24px;
+        margin-right: 24px;
+        border-radius: 15px;
+    }
+
+    .subscribe__groupburgers {
+        display: none;
+    }
+
+    .subscribe__get50 {
+        position: static;
+        font-size: 41.45px;
+        padding: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .subscribe__enteremail {
+        position: static;
+        margin: 0 auto;
+        width: 80%;
+        height: 48px;
+        padding: 0 10px 0 20px;
+        gap: 0;
+    }
+
+    .subscribe__enteremail input {
+        width: 100%;
+        font-size: 10px;
+        
+    }
+    
+    .subscribe__maskgroup {
+        width: 100%;
+    }
+
+    .subscribe__enteremail a {
+        height: 35px;
+        font-size: 9.59px;
+        font-weight: 300;
+        border-radius: 9px;
+        position: inherit;
+    }
+
+    .subscribe__foodimage {
+        position: absolute;
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -100px;
+        width: auto;
+        height: auto;
+    }
+
+    .subscribe__foodimage img {
+        width: 170px;
+        height: auto;
+        display: block;
+    }
 }
