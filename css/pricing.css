@@ -151,3 +151,188 @@
     background-color: #443c77;
     transition: 0.1s ease-in-out;
 }
+
+@media (max-width: 1024px) {
+.pricing-hero {
+    margin-top: 46px;
+    margin-bottom: 66px;
+}
+
+.container {
+    max-width: 887px; 
+    width: 100%; 
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-left: 41px;
+    margin-right: 41px;
+}
+
+.first-part__title {
+    font-size: 24px !important; 
+}
+
+.first-part__subtitle {
+    font-size: 11.38px !important;
+}
+
+
+.purchases__title {
+    font-size: 36.21px !important;
+}
+
+.purchases__card {
+    max-width: 242px !important;
+    min-width: 240px !important;
+}
+
+.purchases__card__image {
+    height: 56px !important;
+    margin-right: 13px !important;
+}
+
+.purchases__card__title {
+    font-size: 13px !important;
+}
+
+.purchases__card__status
+ {
+    font-size: 8px;
+    margin-top: 3px;
+}
+
+.purchases__card__time
+ {
+    position: absolute;
+    right: 12px;
+    bottom: 6px;
+    font-size: 9px !important;
+}
+
+
+.purchases__illustration {
+    width: 379px !important;
+    height: 331px !important;
+    padding: 26px !important;
+}
+
+.purchases {
+    margin-bottom: 98px !important;
+}
+
+.illustration__title {
+     font-size: 20px !important;
+}
+
+.illustration__period {
+    font-size: 13px !important;
+    width: 125px !important;
+    height: 37px !important;
+    padding-left: 13px !important;
+}
+
+.content__card {
+    width: 326px !important;
+    height: 96px !important;
+    padding: 17px !important;
+    gap: 14px !important;
+}
+
+.illustration__content {
+    margin-top: 32px !important;
+}
+
+.content__icon {
+    height: 35px !important;
+}
+.content__title {
+    font-size: 13.4px !important;
+
+}
+
+.content__subtitle {
+    font-size: 11px !important;
+}
+
+.content__money {
+    font-size: 15px !important;
+}
+
+.reviews__main-review {
+    width: 375px !important;
+    height: 246px !important;
+    padding: 24px 30px !important;
+}
+
+.reviews {
+    margin-top: 82px !important;
+    margin-bottom: 217px;
+}
+
+.reviews__title {
+    font-size: 32px !important;
+}
+
+.review__pic {
+    height: 50px !important;
+}
+
+.review__name {
+    font-size: 14.86px !important;
+}
+
+.review__status {
+    font-size: 11.87px !important;
+}
+
+.review__quote {
+    height: 31px !important;
+}
+
+.main-review__text {
+    font-size: 12px !important;
+}
+
+.main-review__text
+ {
+    line-height: 18.6px !important; 
+   letter-spacing: 0px !important;
+    margin-top: 20px !important; }
+
+.main-review__stars img{
+    height: 16px !important;
+}
+
+.side-review__stars img{
+    height: 16px !important;
+}
+
+.side-review__stars {
+    margin-top: 22px !important;
+}
+
+.main-review__stars {
+    margin-top: 25px !important;
+}
+
+
+.side-review__text {
+    font-size: 12px !important;
+    line-height: 18.6px !important; 
+}
+
+.reviews__side-review {
+    width: 375px !important;
+    height: 169px !important;
+    padding: 27px 30px !important;
+}
+
+.reviews__content {
+    gap: 32px !important;
+}
+
+.reviews {
+    margin-bottom: 145px !important;
+}
+
+}
