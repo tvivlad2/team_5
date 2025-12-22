@@ -90,6 +90,7 @@
 @media(min-width:375px) and (max-width:1024px){
     .app__title{font-size: 36.21px;}
     .app__description{font-size: 14.46px;}
+    .app__text-block{max-width: 398px;}
     .button.app__button{font-size: 12.84px;}
     img[src="img/Arrow.svg"]{width:19.27px;height:19.27px;}
     img[src="img/app_arrow.svg"]{width:120.87px;height:50.86px;}

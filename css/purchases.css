@@ -191,6 +191,7 @@
     .content__subtitle{font-size: 11.17px;}
     img[src="img/purchase-icon1.svg"]{width: 35.74px; height: 35.74px;}
     .content__money{font-size: 15.64px;}
-    img[src="img/divider.svg"], img[src="img/divider2.svg"]{width: 290.38px; height: 6.7px;}
+    img[src="img/divider.svg"], img[src="img/divider2.svg"]{width: 290.38px; height: 6.7px; margin-top: -7px;}
     img[src="img/purchase-icon2.svg"]{width: 35.74px; height: 35.74px;}
+    .content__main-content{margin-top: -10px;}
 }

@@ -225,15 +225,17 @@
 }
 
 @media(min-width:375px) and (max-width:1024px){
+    .restaurants{padding-left: 50px;}
     .restaurants__title{font-size: 32px;}
-    .restaurants__card{width: 281.6px; height: 211.63px;}
-    .card__tag{font-size: 9.08px;}
-    .card__title{font-size: 18.34px;}
-    .card__info{font-size: 13.75px;}
-    img[src="img/card-star.svg"]{width: 18.34px;height: 18.34px;}
-    img[src="img/Bookmark.svg"]{width: 28.5px;height: 28.5px;}
-    img[src="img/rest-1.jpg"]{width: 281.6px;height: 125.25px;}
-    img[src="img/rest-2.jpg"]{width: 281.59px;height: 125.25px;}
+    .restaurants__card{max-width: 271.6px; height: 211.63px;}
+    .card__tag{font-size: 9.08px; margin-top: -5px;}
+    .card__title{font-size: 18.34px; margin-top: -7px;}
+    .card__info{font-size: 13.75px; margin-top: -12px;}
+    .card__content{height: 70px; }
+    img[src="img/card-star.svg"]{width: 18.34px;height: 18.34px; margin-bottom: 5px;}
+    img[src="img/Bookmark.svg"]{width: 28.5px;height: 28.5px; margin-top: -19px;}
+    img[src="img/rest-1.jpg"]{width: 281.6px;height: 235.25px;}
+    img[src="img/rest-2.jpg"]{width: 331.59px;height: 185.25px;}
     .restaurants__viewall{font-size: 14.22px;}
     img[src="img/view_all_arrow.svg"]{height: 13px;width: 13px;}
 }

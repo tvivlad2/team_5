@@ -139,8 +139,9 @@
     .review__name{font-size: 14.86px;}
     .review__status{font-size: 11.89px;}
     img[src="img/quote.svg"]{height: 31.47px; width: 41.73px;}
-    .main-review__text{font-size: 12.8px;}
+    .main-review__text{font-size: 12.8px; line-height: 18px; margin-top: 6px;}
     img[src="img/review-star.svg"]{height: 16.36px; width: 16.36px;}
     .side-review__text{font-size: 12.8px;}
     .reviews__scrollbar{height: 7.82px; width: 474.31px;}
+    .main-review__stars{margin-top: 10px;}
 }
