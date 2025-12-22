@@ -114,59 +114,7 @@
     width: 170.22px;
 }
 
-@media (max-width:768px) {
-    .title_article_card {
-        font-size: 25.71px;
-    }
-
-    .card {
-        border-radius: 10.89px;
-        width: 239.53px;
-        height: 302.67px;
-        padding: 17.6px 13.08px 0px 13.03px;
-
-    }
-
-    .card_picture {
-        width: 212.67px;
-        height: 187.03px;
-    }
-
-    .title_card {
-        font-weight: 600;
-        font-size: 14.52px;
-        padding: 14px 0px 0px 0px;
-    }
-
-    .ava_picture {
-        width: 30px;
-        height: 30px;
-    }
-
-    .written {
-        font-size: 8.08px;
-    }
-
-    .Perperzon {
-        font-size: 11.69px;
-    }
-
-    .date {
-        padding-left: 35.37px;
-        padding-bottom: 7.65px;
-        font-size: 10.89px;
-    }
-
-    .info_card {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-self: flex-start;
-        padding: 13px 0px;
-    }
-}
-
-@media (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .title_article_card {
         font-size: 32px;
     }
@@ -225,4 +173,56 @@
         margin-top: 124px;
     }
 
+}
+
+@media (max-width:768px) {
+    .title_article_card {
+        font-size: 25.71px;
+    }
+
+    .card {
+        border-radius: 10.89px;
+        width: 239.53px;
+        height: 302.67px;
+        padding: 17.6px 13.08px 0px 13.03px;
+
+    }
+
+    .card_picture {
+        width: 212.67px;
+        height: 187.03px;
+    }
+
+    .title_card {
+        font-weight: 600;
+        font-size: 14.52px;
+        padding: 14px 0px 0px 0px;
+    }
+
+    .ava_picture {
+        width: 30px;
+        height: 30px;
+    }
+
+    .written {
+        font-size: 8.08px;
+    }
+
+    .Perperzon {
+        font-size: 11.69px;
+    }
+
+    .date {
+        padding-left: 35.37px;
+        padding-bottom: 7.65px;
+        font-size: 10.89px;
+    }
+
+    .info_card {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-self: flex-start;
+        padding: 13px 0px;
+    }
 }

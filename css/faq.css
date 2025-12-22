@@ -83,6 +83,30 @@
 
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .faq__title {
+        font-size: 32px;
+        margin-bottom: 69px;
+    }
+
+
+    .question__content {
+        font-size: 16.65px;
+    }
+
+    .question__button {
+        height: 21px;
+    }
+
+    .faq__title_palochki {
+        width: 29px;
+        height: 27px;
+        top: -25px;
+        right: -38px;
+    }
+
+}
+
 @media (max-width:768px) {
     .faq__title {
         font-size: 23.64px;
@@ -112,28 +136,4 @@
         padding-right: 70px;
         text-align: justify;
     }
-}
-
-@media (max-width: 1024px) {
-    .faq__title {
-        font-size: 32px;
-        margin-bottom: 69px;
-    }
-
-
-    .question__content {
-        font-size: 16.65px;
-    }
-
-    .question__button {
-        height: 21px;
-    }
-
-    .faq__title_palochki {
-        width: 29px;
-        height: 27px;
-        top: -25px;
-        right: -38px;
-    }
-
 }

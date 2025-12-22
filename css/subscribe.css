@@ -100,6 +100,69 @@
     background-color: #5e54a5;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .subscribe {
+        max-width: 863px;
+        width: 863px;
+        height: 199px;
+        margin-bottom: 121px;
+    }
+
+    .subscribe__get50 {
+        font-size: 49px;
+        padding: 26px 0 0 46px;
+    }
+
+    .subscribe__groupburgers {
+        display: flex;
+        position: absolute;
+        align-items: center;
+        z-index: 0;
+        pointer-events: none;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    .subscribe__leftgroupburgers img {
+        height: 199px !important;
+    }
+
+    .subscribe__rightgroupburgers img {
+        position: absolute;
+        height: 199px;
+        left: -90px;
+    }
+
+
+    .subscribe__foodimage img {
+        height: 196px;
+        width: 194px;
+    }
+
+    .subscribe__enteremail {
+        height: 48px;
+        width: 312px;
+        bottom: 43px;
+        left: 46px;
+        padding: 0 15px;
+    }
+
+    .subscribe__enteremail input {
+        font-size: 11px;
+    }
+
+    .subscribe__enteremail a {
+        height: 38px;
+        width: 94px;
+        right: 4px;
+        font-size: 10px;
+    }
+
+}
+
 @media (max-width: 768px) {
     .subscribe {
         flex-direction: column;
@@ -167,68 +230,4 @@
         height: auto;
         display: block;
     }
-}
-
-
-@media (max-width: 1024px) {
-
-    .subscribe {
-        max-width: 863px;
-        width: 863px;
-        height: 199px;
-        margin-bottom: 121px;
-    }
-
-    .subscribe__get50 {
-        font-size: 49px;
-        padding: 26px 0 0 46px;
-    }
-
-    .subscribe__groupburgers {
-        display: flex;
-        position: absolute;
-        align-items: center;
-        z-index: 0;
-        pointer-events: none;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-    }
-
-    .subscribe__leftgroupburgers img {
-        height: 199px !important;
-    }
-
-    .subscribe__rightgroupburgers img {
-        position: absolute;
-        height: 199px;
-        left: -90px;
-    }
-
-
-    .subscribe__foodimage img {
-        height: 196px;
-        width: 194px;
-    }
-
-    .subscribe__enteremail {
-        height: 48px;
-        width: 312px;
-        bottom: 43px;
-        left: 46px;
-        padding: 0 15px;
-    }
-
-    .subscribe__enteremail input {
-        font-size: 11px;
-    }
-
-    .subscribe__enteremail a {
-        height: 38px;
-        width: 94px;
-        right: 4px;
-        font-size: 10px;
-    }
-
 }
