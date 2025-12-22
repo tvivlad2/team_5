@@ -26,7 +26,7 @@
 
 .written-by--img img {
 	width: 56px;
-	border-radius: 28px;
+	border-radius: 100%;
 }
 
 .written-by--text {
@@ -69,7 +69,10 @@
 }
 
 .blog-main__body {
-	
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 44.55px;
+	color: #252525;
 }
 
 .blog-main__body--1st {
@@ -94,20 +97,12 @@
 }
 
 .blog-main__body--text {
-	font-weight: 400;
-	font-size: 22px;
-	line-height: 44.55px;
 	text-align: justify;
-	color: #252525;
 }
 
 .blog-main__body--bullets {
 	list-style: inside;
 	margin-bottom: 100px;
-	font-weight: 400;
-	font-size: 22px;
-	line-height: 44.55px;
-	color: #252525;
 }
 
 .blog-main__vr-divider {
@@ -120,7 +115,7 @@
 .blog-main__top-articles {
 	display: flex;
 	flex-direction: column;
-	gap: 50px;
+	gap: 60px;
 	margin-bottom: 15px;
 }
 
@@ -138,7 +133,7 @@
 	flex-direction: column;
 	border-radius: 13.55px;
 	background-color: #FFFFFF;
-	padding: 21px 17px 26px 17px;
+	padding: 21px 16px 26px 17px;
 	box-shadow: 0px 3.34px 100px 0px #32314240;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
@@ -167,7 +162,7 @@
 }
 
 .top-articles__card .written-by {
-	
+	margin-top: 18px;
 }
 
 .top-articles__card .written-by--img {
@@ -176,7 +171,6 @@
 
 .top-articles__card .written-by--img img {
 	width: 37px;
-	border-radius: 18.5px;
 }
 
 .top-articles__card .written-by--uppertext {
@@ -185,6 +179,7 @@
 
 .top-articles__card .written-by--lowertext {
 	font-size: 14.55px;
+	line-height: 22.31px;
 }
 
 .written-by--date {
@@ -213,8 +208,6 @@
 	font-weight: 600;
 	font-size: 20.29px;
 	line-height: 25.37px;
-	text-align: center;
-	vertical-align: middle;
 	text-transform: capitalize;
 	text-decoration: none;
 	color: #F4F4F4;

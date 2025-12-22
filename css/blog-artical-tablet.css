@@ -1,0 +1,163 @@
+@media only screen and (max-width: 1024px){
+	.blog-headline {
+		margin-top: 89.6px;
+	}
+	
+	.headline__title {
+		font-size: 26.6px;
+		line-height: 31.68px;
+	}
+	
+	.written-by {
+		margin-top: 22.7px;
+	}
+	
+	.written-by--img {
+		height: 40px;
+	}
+
+	.written-by--img img {
+		width: 40px;
+	}
+	
+	.written-by--text {
+		padding-top: 3.6px;
+		padding-left: 10.4px;
+	}
+
+	.written-by--uppertext {
+		font-size: 10.7px;
+	}
+
+	.written-by--lowertext {
+		font-size: 15.47px;
+		line-height: 23.72px;
+	}
+
+	.headline__img {
+		aspect-ratio: 3/1;
+		margin-top: 44px;
+	}
+	
+	.blog-main--section {
+		margin-top: 57px;
+	}
+	
+	.blog-main__body {
+		font-size: 15.64px;
+		line-height: 31.68px;
+	}
+	
+	.blog-main__body--1st {
+		margin-bottom: 39.4px;
+	}
+
+	.blog-main__body--2nd {
+		margin-bottom: 63.6px;
+	}
+
+	.blog-main__body--3rd {
+		margin-bottom: 38px;
+	}
+
+	.blog-main__body--title {
+		font-size: 23.47px;
+		line-height: 31.68px;
+		margin-bottom: 25px;
+	}
+
+	.blog-main__body--bullets {
+		margin-bottom: 71px;
+	}
+
+	.blog-main__vr-divider {
+		margin-left: 53.33px;
+		margin-right: 33px;
+	}
+
+	.blog-main__top-articles {
+		gap: 43px;
+		margin-bottom: 15px;
+	}
+
+	.top-articles__title {
+		margin-left: 6px;
+		margin-bottom: -19px;
+		font-size: 21.33px;
+		line-height: 31.68px;
+	}
+
+	.top-articles__card {
+		border-radius: 9.64px;
+		padding: 15.3px 11.6px 19px 12.2px;
+		box-shadow: 0px 2.37px 71.42px 0px #32314240;
+		transition: transform 0.3s ease, box-shadow 0.3s ease;
+		cursor: pointer;
+	}
+	
+	.top-articles__card:hover {
+		box-shadow: 0px 2.37px 71.42px rgba(0, 0, 0, 0.1);
+	}
+	
+	.top-articles__card--img {
+		height: 165.5px;
+	}
+
+	.top-articles__card--img img{
+		width: 188px;
+		border-radius: 7.44px;
+	}
+
+	.top-articles__card--title {
+		margin-top: 13px;
+		font-size: 12.85px;
+		line-height: 15.31px;
+	}
+
+	.top-articles__card .written-by {
+		margin-top: 12.3px;
+	}
+
+	.top-articles__card .written-by--img {
+		height: 26.6px;
+	}
+
+	.top-articles__card .written-by--img img {
+		width: 26.6px;
+	}
+
+	.top-articles__card .written-by--uppertext {
+		font-size: 7.15px;
+	}
+
+	.top-articles__card .written-by--lowertext {
+		font-size: 10.35px;
+		line-height: 15.86px;
+	}
+
+	.written-by--date {
+		font-size: 9.64px;
+		line-height: 19.08px;
+	}
+
+	.blog-button {
+		margin-top: 33.4px;
+		margin-bottom: 119.5px;
+	}
+
+	.blog-button__next {
+		width: 174px;
+		height: 57px;
+		border-radius: 11.73px;
+		
+		font-size: 14.43px;
+		line-height: 18.04px;
+	}
+
+	.blog-button__next--arrow {
+		width: 21.65px;
+		height: 24.4px;
+		margin-left: 19.3px;
+	}
+	
+}
